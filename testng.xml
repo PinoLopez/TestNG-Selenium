@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+  <test name="WikipediaTest">
+    <classes>
+       <class name="WikipediaTest"/>
+       <class name="WikipediaTest02"/>
+       <class name="WikipediaTest03"/>
+       <class name="WikipediaTest04"/>
+       <class name="WikipediaTest05"/>
+       <class name="WikipediaTest06"/>
+       <class name="WikipediaTest07"/>
+       <class name="WikipediaTest08"/>
+       <class name="WikipediaTest09"/>
+       <class name="WikipediaTest10"/>
+    </classes>
+  </test>
+</suite>

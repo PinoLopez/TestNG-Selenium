@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-05T12:03:05 CET" name="Suite1" finished-at="2025-03-05T12:05:27 CET" duration-ms="142207">
+    <groups>
+    </groups>
+    <test started-at="2025-03-05T12:03:05 CET" name="WikipediaTest" finished-at="2025-03-05T12:05:27 CET" duration-ms="142207">
+      <class name="WikipediaTest07">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest07@6b19b79]" started-at="2025-03-05T12:04:26 CET" name="setUp" finished-at="2025-03-05T12:04:29 CET" duration-ms="2754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testHighlightElementsOnAsturiasPage()[pri:0, instance:WikipediaTest07@6b19b79]" started-at="2025-03-05T12:04:29 CET" name="testHighlightElementsOnAsturiasPage" finished-at="2025-03-05T12:04:39 CET" duration-ms="9968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHighlightElementsOnAsturiasPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:WikipediaTest07@6b19b79]" started-at="2025-03-05T12:04:39 CET" name="tearDown" finished-at="2025-03-05T12:04:40 CET" duration-ms="1042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- WikipediaTest07 -->
+      <class name="WikipediaTest08">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest08@2a32de6c]" started-at="2025-03-05T12:04:40 CET" name="setUp" finished-at="2025-03-05T12:04:43 CET" duration-ms="3243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testHighlightElementsOnGaliciaPage()[pri:0, instance:WikipediaTest08@2a32de6c]" started-at="2025-03-05T12:04:43 CET" name="testHighlightElementsOnGaliciaPage" finished-at="2025-03-05T12:04:56 CET" duration-ms="13031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHighlightElementsOnGaliciaPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:WikipediaTest08@2a32de6c]" started-at="2025-03-05T12:04:56 CET" name="tearDown" finished-at="2025-03-05T12:04:57 CET" duration-ms="907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- WikipediaTest08 -->
+      <class name="WikipediaTest09">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest09@7692d9cc]" started-at="2025-03-05T12:04:57 CET" name="setUp" finished-at="2025-03-05T12:05:00 CET" duration-ms="2895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testHighlightElementsOnAsturiasPage()[pri:0, instance:WikipediaTest09@7692d9cc]" started-at="2025-03-05T12:05:00 CET" name="testHighlightElementsOnAsturiasPage" finished-at="2025-03-05T12:05:10 CET" duration-ms="10345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHighlightElementsOnAsturiasPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:WikipediaTest09@7692d9cc]" started-at="2025-03-05T12:05:10 CET" name="tearDown" finished-at="2025-03-05T12:05:11 CET" duration-ms="999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- WikipediaTest09 -->
+      <class name="WikipediaTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest@60611244]" started-at="2025-03-05T12:03:05 CET" name="setUp" finished-at="2025-03-05T12:03:09 CET" duration-ms="3949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testHighlightElementsOnElCabreroPage()[pri:0, instance:WikipediaTest@60611244]" started-at="2025-03-05T12:03:09 CET" name="testHighlightElementsOnElCabreroPage" finished-at="2025-03-05T12:03:17 CET" duration-ms="8380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHighlightElementsOnElCabreroPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:WikipediaTest@60611244]" started-at="2025-03-05T12:03:17 CET" name="tearDown" finished-at="2025-03-05T12:03:19 CET" duration-ms="1253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- WikipediaTest -->
+      <class name="WikipediaTest10">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest10@75f32542]" started-at="2025-03-05T12:05:11 CET" name="setUp" finished-at="2025-03-05T12:05:14 CET" duration-ms="2997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testHighlightElementsOnAndalusiaPage()[pri:0, instance:WikipediaTest10@75f32542]" started-at="2025-03-05T12:05:14 CET" name="testHighlightElementsOnAndalusiaPage" finished-at="2025-03-05T12:05:26 CET" duration-ms="12183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHighlightElementsOnAndalusiaPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:WikipediaTest10@75f32542]" started-at="2025-03-05T12:05:26 CET" name="tearDown" finished-at="2025-03-05T12:05:27 CET" duration-ms="1049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- WikipediaTest10 -->
+      <class name="WikipediaTest02">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest02@23f7d05d]" started-at="2025-03-05T12:03:19 CET" name="setUp" finished-at="2025-03-05T12:03:22 CET" duration-ms="3103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testHighlightElementsOnVerdialesPage()[pri:0, instance:WikipediaTest02@23f7d05d]" started-at="2025-03-05T12:03:22 CET" name="testHighlightElementsOnVerdialesPage" finished-at="2025-03-05T12:03:30 CET" duration-ms="8724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHighlightElementsOnVerdialesPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:WikipediaTest02@23f7d05d]" started-at="2025-03-05T12:03:30 CET" name="tearDown" finished-at="2025-03-05T12:03:32 CET" duration-ms="1160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- WikipediaTest02 -->
+      <class name="WikipediaTest03">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest03@1e730495]" started-at="2025-03-05T12:03:32 CET" name="setUp" finished-at="2025-03-05T12:03:35 CET" duration-ms="3648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testHighlightElementsOnMontargilPage()[pri:0, instance:WikipediaTest03@1e730495]" started-at="2025-03-05T12:03:35 CET" name="testHighlightElementsOnMontargilPage" finished-at="2025-03-05T12:03:44 CET" duration-ms="9193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHighlightElementsOnMontargilPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:WikipediaTest03@1e730495]" started-at="2025-03-05T12:03:44 CET" name="tearDown" finished-at="2025-03-05T12:03:46 CET" duration-ms="1097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- WikipediaTest03 -->
+      <class name="WikipediaTest04">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest04@7d3a22a9]" started-at="2025-03-05T12:03:46 CET" name="setUp" finished-at="2025-03-05T12:03:49 CET" duration-ms="3287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testHighlightElementsOnPyreneesPage()[pri:0, instance:WikipediaTest04@7d3a22a9]" started-at="2025-03-05T12:03:49 CET" name="testHighlightElementsOnPyreneesPage" finished-at="2025-03-05T12:03:59 CET" duration-ms="10180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHighlightElementsOnPyreneesPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:WikipediaTest04@7d3a22a9]" started-at="2025-03-05T12:03:59 CET" name="tearDown" finished-at="2025-03-05T12:04:00 CET" duration-ms="987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- WikipediaTest04 -->
+      <class name="WikipediaTest05">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest05@1d082e88]" started-at="2025-03-05T12:04:00 CET" name="setUp" finished-at="2025-03-05T12:04:03 CET" duration-ms="2859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testHighlightElementsOnGorbeaPage()[pri:0, instance:WikipediaTest05@1d082e88]" started-at="2025-03-05T12:04:03 CET" name="testHighlightElementsOnGorbeaPage" finished-at="2025-03-05T12:04:10 CET" duration-ms="7360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHighlightElementsOnGorbeaPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:WikipediaTest05@1d082e88]" started-at="2025-03-05T12:04:10 CET" name="tearDown" finished-at="2025-03-05T12:04:11 CET" duration-ms="1008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- WikipediaTest05 -->
+      <class name="WikipediaTest06">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest06@60704c]" started-at="2025-03-05T12:04:11 CET" name="setUp" finished-at="2025-03-05T12:04:14 CET" duration-ms="2920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testHighlightElementsOnCantabriaPage()[pri:0, instance:WikipediaTest06@60704c]" started-at="2025-03-05T12:04:14 CET" name="testHighlightElementsOnCantabriaPage" finished-at="2025-03-05T12:04:25 CET" duration-ms="10460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHighlightElementsOnCantabriaPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:WikipediaTest06@60704c]" started-at="2025-03-05T12:04:25 CET" name="tearDown" finished-at="2025-03-05T12:04:26 CET" duration-ms="1168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- WikipediaTest06 -->
+    </test> <!-- WikipediaTest -->
+  </suite> <!-- Suite1 -->
+</testng-results>
