@@ -22,6 +22,15 @@
             <version>7.8.0</version>
             <scope>test</scope>
         </dependency>
+        <!-- ExtentReports TestNG adapter: generates a modern HTML report
+             automatically — no code changes needed, just the listener in testng.xml.
+             Report lands in test-output/SparkReport/Index.html -->
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports-testng-adapter</artifactId>
+            <version>1.0.3</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
@@ -33,9 +42,7 @@
                     <suiteXmlFiles>
                         <suiteXmlFile>testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
-                    <!-- Point Java's built-in logging (JUL) to our logging.properties.
-                         This suppresses the noisy "Unable to find CDP implementation
-                         matching 146" warnings from Selenium's CdpVersionFinder. -->
+                    <!-- Suppress noisy CDP version-mismatch warnings from Selenium -->
                     <argLine>
                         -Djava.util.logging.config.file=${project.build.testOutputDirectory}/logging.properties
                     </argLine>
