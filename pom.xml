@@ -22,13 +22,11 @@
             <version>7.8.0</version>
             <scope>test</scope>
         </dependency>
-        <!-- ExtentReports TestNG adapter: generates a modern HTML report
-             automatically — no code changes needed, just the listener in testng.xml.
-             Report lands in test-output/SparkReport/Index.html -->
+        <!-- ExtentReports core: programmatic HTML report generation via BaseTest -->
         <dependency>
             <groupId>com.aventstack</groupId>
-            <artifactId>extentreports-testng-adapter</artifactId>
-            <version>1.0.3</version>
+            <artifactId>extentreports</artifactId>
+            <version>5.1.1</version>
             <scope>test</scope>
         </dependency>
     </dependencies>

@@ -1,11 +1,5 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="Suite1" verbose="1">
-
-  <!-- ExtentReports listener: generates test-output/SparkReport/Index.html -->
-  <listeners>
-    <listener class-name="com.aventstack.extentreports.testng.listener.ExtentITestListenerAdapter"/>
-  </listeners>
-
   <test name="WikipediaTest">
     <classes>
       <class name="WikipediaTest01"/>
