@@ -1,0 +1,430 @@
+<html>
+<head>
+<title>TestNG:  WikipediaTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>WikipediaTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>70/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Mar 14 17:05:45 CET 2026</td>
+</tr>
+<tr><td>Total time:</td><td>237 seconds (237798 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='WikipediaTest03.verifyAllContentSections()'><b>verifyAllContentSections</b><br>Test class: WikipediaTest03</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest03@3c419631</td></tr>
+<tr>
+<td title='WikipediaTest10.verifyDonationSubmitButton()'><b>verifyDonationSubmitButton</b><br>Test class: WikipediaTest10</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest10@63021689</td></tr>
+<tr>
+<td title='WikipediaTest02.verifyAllContentSections()'><b>verifyAllContentSections</b><br>Test class: WikipediaTest02</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest02@4a22f9e2</td></tr>
+<tr>
+<td title='WikipediaTest04.verifyHistorySection()'><b>verifyHistorySection</b><br>Test class: WikipediaTest04</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest04@418e7838</td></tr>
+<tr>
+<td title='WikipediaTest09.verifyMediaWikiSiteStructureAndLinks()'><b>verifyMediaWikiSiteStructureAndLinks</b><br>Test class: WikipediaTest09<br>Parameters: Wikinews, https://en.wikinews.org/wiki/Main_Page</td>
+<td></td>
+<td>5</td>
+<td>WikipediaTest09@470f1802</td></tr>
+<tr>
+<td title='WikipediaTest08.verifyReferenceLinks()'><b>verifyReferenceLinks</b><br>Test class: WikipediaTest08</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest08@3e2e18f2</td></tr>
+<tr>
+<td title='WikipediaTest08.verifyTableOfContents()'><b>verifyTableOfContents</b><br>Test class: WikipediaTest08</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest08@3e2e18f2</td></tr>
+<tr>
+<td title='WikipediaTest05.verifySoftwareEmulationsSection()'><b>verifySoftwareEmulationsSection</b><br>Test class: WikipediaTest05</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest05@61230f6a</td></tr>
+<tr>
+<td title='WikipediaTest03.verifyPageHeaderTabs()'><b>verifyPageHeaderTabs</b><br>Test class: WikipediaTest03</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest03@3c419631</td></tr>
+<tr>
+<td title='WikipediaTest10.verifyWikimediaBrandingAndTrustIndicators()'><b>verifyWikimediaBrandingAndTrustIndicators</b><br>Test class: WikipediaTest10</td>
+<td></td>
+<td>1</td>
+<td>WikipediaTest10@63021689</td></tr>
+<tr>
+<td title='WikipediaTest05.verifySuccessorsSection()'><b>verifySuccessorsSection</b><br>Test class: WikipediaTest05</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest05@61230f6a</td></tr>
+<tr>
+<td title='WikipediaTest07.verifyMajorFilmsMentions()'><b>verifyMajorFilmsMentions</b><br>Test class: WikipediaTest07</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest07@cd3fee8</td></tr>
+<tr>
+<td title='WikipediaTest09.verifyMediaWikiSiteStructureAndLinks()'><b>verifyMediaWikiSiteStructureAndLinks</b><br>Test class: WikipediaTest09<br>Parameters: Wiktionary, https://en.wiktionary.org/wiki/Wiktionary:Main_Page</td>
+<td></td>
+<td>11</td>
+<td>WikipediaTest09@470f1802</td></tr>
+<tr>
+<td title='WikipediaTest01.verifySearchFunctionality()'><b>verifySearchFunctionality</b><br>Test class: WikipediaTest01</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest01@7880cdf3</td></tr>
+<tr>
+<td title='WikipediaTest07.verifySidebarNavigationMenu()'><b>verifySidebarNavigationMenu</b><br>Test class: WikipediaTest07</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest07@cd3fee8</td></tr>
+<tr>
+<td title='WikipediaTest02.verifyArticlePageStructure()'><b>verifyArticlePageStructure</b><br>Test class: WikipediaTest02</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest02@4a22f9e2</td></tr>
+<tr>
+<td title='WikipediaTest09.verifyMediaWikiSiteStructureAndLinks()'><b>verifyMediaWikiSiteStructureAndLinks</b><br>Test class: WikipediaTest09<br>Parameters: MediaWiki, https://www.mediawiki.org/wiki/MediaWiki</td>
+<td></td>
+<td>3</td>
+<td>WikipediaTest09@470f1802</td></tr>
+<tr>
+<td title='WikipediaTest01.verifySisterProjectsSection()'><b>verifySisterProjectsSection</b><br>Test class: WikipediaTest01</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest01@7880cdf3</td></tr>
+<tr>
+<td title='WikipediaTest10.completeDonationFlowValidation()'><b>completeDonationFlowValidation</b><br>Test class: WikipediaTest10</td>
+<td></td>
+<td>1</td>
+<td>WikipediaTest10@63021689</td></tr>
+<tr>
+<td title='WikipediaTest06.verifyTypesSubSubsections()'><b>verifyTypesSubSubsections</b><br>Test class: WikipediaTest06</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest06@3c130745</td></tr>
+<tr>
+<td title='WikipediaTest06.verifyConnectorsSubsections()'><b>verifyConnectorsSubsections</b><br>Test class: WikipediaTest06</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest06@3c130745</td></tr>
+<tr>
+<td title='WikipediaTest09.verifyMediaWikiSiteStructureAndLinks()'><b>verifyMediaWikiSiteStructureAndLinks</b><br>Test class: WikipediaTest09<br>Parameters: Wikipedia, https://en.wikipedia.org/wiki/Main_Page</td>
+<td></td>
+<td>11</td>
+<td>WikipediaTest09@470f1802</td></tr>
+<tr>
+<td title='WikipediaTest01.verifyAllContentSections()'><b>verifyAllContentSections</b><br>Test class: WikipediaTest01</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest01@7880cdf3</td></tr>
+<tr>
+<td title='WikipediaTest04.verifyExternalLinks()'><b>verifyExternalLinks</b><br>Test class: WikipediaTest04</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest04@418e7838</td></tr>
+<tr>
+<td title='WikipediaTest09.verifyMediaWikiSiteStructureAndLinks()'><b>verifyMediaWikiSiteStructureAndLinks</b><br>Test class: WikipediaTest09<br>Parameters: Wikimedia Commons, https://commons.wikimedia.org/wiki/Main_Page</td>
+<td></td>
+<td>7</td>
+<td>WikipediaTest09@470f1802</td></tr>
+<tr>
+<td title='WikipediaTest02.verifySidebarNavigationMenu()'><b>verifySidebarNavigationMenu</b><br>Test class: WikipediaTest02</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest02@4a22f9e2</td></tr>
+<tr>
+<td title='WikipediaTest08.verifyPageTitle()'><b>verifyPageTitle</b><br>Test class: WikipediaTest08</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest08@3e2e18f2</td></tr>
+<tr>
+<td title='WikipediaTest06.verifyCompatibilityTable()'><b>verifyCompatibilityTable</b><br>Test class: WikipediaTest06</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest06@3c130745</td></tr>
+<tr>
+<td title='WikipediaTest09.verifyMediaWikiSiteStructureAndLinks()'><b>verifyMediaWikiSiteStructureAndLinks</b><br>Test class: WikipediaTest09<br>Parameters: Wikidata, https://www.wikidata.org/wiki/Wikidata:Main_Page</td>
+<td></td>
+<td>3</td>
+<td>WikipediaTest09@470f1802</td></tr>
+<tr>
+<td title='WikipediaTest07.verifyFooterLinksExist()'><b>verifyFooterLinksExist</b><br>Test class: WikipediaTest07</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest07@cd3fee8</td></tr>
+<tr>
+<td title='WikipediaTest01.verifyTodayFeaturedArticleExists()'><b>verifyTodayFeaturedArticleExists</b><br>Test class: WikipediaTest01</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest01@7880cdf3</td></tr>
+<tr>
+<td title='WikipediaTest06.verifyUSBConnectorsSection()'><b>verifyUSBConnectorsSection</b><br>Test class: WikipediaTest06</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest06@3c130745</td></tr>
+<tr>
+<td title='WikipediaTest10.verifyDonationPageLoadsCorrectly()'><b>verifyDonationPageLoadsCorrectly</b><br>Test class: WikipediaTest10</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest10@63021689</td></tr>
+<tr>
+<td title='WikipediaTest10.verifyPaymentMethodOptions()'><b>verifyPaymentMethodOptions</b><br>Test class: WikipediaTest10</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest10@63021689</td></tr>
+<tr>
+<td title='WikipediaTest03.verifyFooterLinksExist()'><b>verifyFooterLinksExist</b><br>Test class: WikipediaTest03</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest03@3c419631</td></tr>
+<tr>
+<td title='WikipediaTest10.verifyCountrySelectionShowsSpain()'><b>verifyCountrySelectionShowsSpain</b><br>Test class: WikipediaTest10</td>
+<td></td>
+<td>60</td>
+<td>WikipediaTest10@63021689</td></tr>
+<tr>
+<td title='WikipediaTest07.verifyArticlePageStructure()'><b>verifyArticlePageStructure</b><br>Test class: WikipediaTest07</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest07@cd3fee8</td></tr>
+<tr>
+<td title='WikipediaTest07.verifyPageHeaderTabs()'><b>verifyPageHeaderTabs</b><br>Test class: WikipediaTest07</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest07@cd3fee8</td></tr>
+<tr>
+<td title='WikipediaTest01.verifySidebarNavigationMenu()'><b>verifySidebarNavigationMenu</b><br>Test class: WikipediaTest01</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest01@7880cdf3</td></tr>
+<tr>
+<td title='WikipediaTest08.takeScreenshot()'><b>takeScreenshot</b><br>Test class: WikipediaTest08</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest08@3e2e18f2</td></tr>
+<tr>
+<td title='WikipediaTest07.verifyMainContentSections()'><b>verifyMainContentSections</b><br>Test class: WikipediaTest07</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest07@cd3fee8</td></tr>
+<tr>
+<td title='WikipediaTest02.verifyModelsSubsections()'><b>verifyModelsSubsections</b><br>Test class: WikipediaTest02</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest02@4a22f9e2</td></tr>
+<tr>
+<td title='WikipediaTest09.verifyMediaWikiSiteStructureAndLinks()'><b>verifyMediaWikiSiteStructureAndLinks</b><br>Test class: WikipediaTest09<br>Parameters: Wikiversity, https://en.wikiversity.org/wiki/Wikiversity:Main_Page</td>
+<td></td>
+<td>4</td>
+<td>WikipediaTest09@470f1802</td></tr>
+<tr>
+<td title='WikipediaTest01.verifyAvailableLanguages()'><b>verifyAvailableLanguages</b><br>Test class: WikipediaTest01</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest01@7880cdf3</td></tr>
+<tr>
+<td title='WikipediaTest01.verifyWikipediaLogoLinksToMainPage()'><b>verifyWikipediaLogoLinksToMainPage</b><br>Test class: WikipediaTest01</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest01@7880cdf3</td></tr>
+<tr>
+<td title='WikipediaTest10.verifyCurrencyIsSetToEUR()'><b>verifyCurrencyIsSetToEUR</b><br>Test class: WikipediaTest10</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest10@63021689</td></tr>
+<tr>
+<td title='WikipediaTest03.verifyArticlePageStructure()'><b>verifyArticlePageStructure</b><br>Test class: WikipediaTest03</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest03@3c419631</td></tr>
+<tr>
+<td title='WikipediaTest05.verifyFeaturesSection()'><b>verifyFeaturesSection</b><br>Test class: WikipediaTest05</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest05@61230f6a</td></tr>
+<tr>
+<td title='WikipediaTest08.verifyResultsTables()'><b>verifyResultsTables</b><br>Test class: WikipediaTest08</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest08@3e2e18f2</td></tr>
+<tr>
+<td title='WikipediaTest09.verifyMediaWikiSiteStructureAndLinks()'><b>verifyMediaWikiSiteStructureAndLinks</b><br>Test class: WikipediaTest09<br>Parameters: Wikivoyage, https://en.wikivoyage.org/wiki/Main_Page</td>
+<td></td>
+<td>4</td>
+<td>WikipediaTest09@470f1802</td></tr>
+<tr>
+<td title='WikipediaTest07.verifyCorporateInfoboxDetails()'><b>verifyCorporateInfoboxDetails</b><br>Test class: WikipediaTest07</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest07@cd3fee8</td></tr>
+<tr>
+<td title='WikipediaTest08.verifyCalendarSection()'><b>verifyCalendarSection</b><br>Test class: WikipediaTest08</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest08@3e2e18f2</td></tr>
+<tr>
+<td title='WikipediaTest08.verifySeasonChanges()'><b>verifySeasonChanges</b><br>Test class: WikipediaTest08</td>
+<td></td>
+<td>1</td>
+<td>WikipediaTest08@3e2e18f2</td></tr>
+<tr>
+<td title='WikipediaTest05.verifyTechnicalSpecifications()'><b>verifyTechnicalSpecifications</b><br>Test class: WikipediaTest05</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest05@61230f6a</td></tr>
+<tr>
+<td title='WikipediaTest02.verifyPageHeaderTabs()'><b>verifyPageHeaderTabs</b><br>Test class: WikipediaTest02</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest02@4a22f9e2</td></tr>
+<tr>
+<td title='WikipediaTest08.verifyRidersSection()'><b>verifyRidersSection</b><br>Test class: WikipediaTest08</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest08@3e2e18f2</td></tr>
+<tr>
+<td title='WikipediaTest09.quickVerificationOfMultipleMediaWikiSites()'><b>quickVerificationOfMultipleMediaWikiSites</b><br>Test class: WikipediaTest09</td>
+<td></td>
+<td>8</td>
+<td>WikipediaTest09@470f1802</td></tr>
+<tr>
+<td title='WikipediaTest03.verifySidebarNavigationMenu()'><b>verifySidebarNavigationMenu</b><br>Test class: WikipediaTest03</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest03@3c419631</td></tr>
+<tr>
+<td title='WikipediaTest10.verifyDonationFrequencyOptions()'><b>verifyDonationFrequencyOptions</b><br>Test class: WikipediaTest10</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest10@63021689</td></tr>
+<tr>
+<td title='WikipediaTest03.verifyTechnicalSpecificationsInInfobox()'><b>verifyTechnicalSpecificationsInInfobox</b><br>Test class: WikipediaTest03</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest03@3c419631</td></tr>
+<tr>
+<td title='WikipediaTest10.verifyDonationAmountOptions()'><b>verifyDonationAmountOptions</b><br>Test class: WikipediaTest10</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest10@63021689</td></tr>
+<tr>
+<td title='WikipediaTest08.verifyDefendingChampionJorgeMartin()'><b>verifyDefendingChampionJorgeMartin</b><br>Test class: WikipediaTest08</td>
+<td></td>
+<td>1</td>
+<td>WikipediaTest08@3e2e18f2</td></tr>
+<tr>
+<td title='WikipediaTest02.verifyFooterLinksExist()'><b>verifyFooterLinksExist</b><br>Test class: WikipediaTest02</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest02@4a22f9e2</td></tr>
+<tr>
+<td title='WikipediaTest08.verifyMainTeams()'><b>verifyMainTeams</b><br>Test class: WikipediaTest08</td>
+<td></td>
+<td>2</td>
+<td>WikipediaTest08@3e2e18f2</td></tr>
+<tr>
+<td title='WikipediaTest01.verifyFooterLinksExist()'><b>verifyFooterLinksExist</b><br>Test class: WikipediaTest01</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest01@7880cdf3</td></tr>
+<tr>
+<td title='WikipediaTest04.verifyInfoboxWebsiteLink()'><b>verifyInfoboxWebsiteLink</b><br>Test class: WikipediaTest04</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest04@418e7838</td></tr>
+<tr>
+<td title='WikipediaTest04.verifyDesignSection()'><b>verifyDesignSection</b><br>Test class: WikipediaTest04</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest04@418e7838</td></tr>
+<tr>
+<td title='WikipediaTest01.verifyMainPageStructure()'><b>verifyMainPageStructure</b><br>Test class: WikipediaTest01</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest01@7880cdf3</td></tr>
+<tr>
+<td title='WikipediaTest01.verifyPageHeaderTabs()'><b>verifyPageHeaderTabs</b><br>Test class: WikipediaTest01</td>
+<td></td>
+<td>0</td>
+<td>WikipediaTest01@7880cdf3</td></tr>
+<tr>
+<td title='WikipediaTest08.verifyMarcMarquezInformation()'><b>verifyMarcMarquezInformation</b><br>Test class: WikipediaTest08</td>
+<td></td>
+<td>1</td>
+<td>WikipediaTest08@3e2e18f2</td></tr>
+</table><p>
+</body>
+</html>

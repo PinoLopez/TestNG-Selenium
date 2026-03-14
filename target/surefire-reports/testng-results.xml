@@ -1,0 +1,2235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="70" passed="70" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-14T17:05:45 CET" name="Suite1" finished-at="2026-03-14T17:09:43 CET" duration-ms="237798">
+    <groups>
+    </groups>
+    <test started-at="2026-03-14T17:05:45 CET" name="WikipediaTest" finished-at="2026-03-14T17:09:43 CET" duration-ms="237798">
+      <class name="WikipediaTest07">
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest07@cd3fee8]" started-at="2026-03-14T17:06:42 CET" name="methodSetUp" finished-at="2026-03-14T17:06:42 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest07.verifyArticlePageStructure()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest07@cd3fee8]" started-at="2026-03-14T17:06:42 CET" name="setUp" finished-at="2026-03-14T17:06:43 CET" duration-ms="966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyArticlePageStructure()[pri:0, instance:WikipediaTest07@cd3fee8]" started-at="2026-03-14T17:06:43 CET" name="verifyArticlePageStructure" finished-at="2026-03-14T17:06:43 CET" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyArticlePageStructure -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest07@cd3fee8]" started-at="2026-03-14T17:06:43 CET" name="methodTearDown" finished-at="2026-03-14T17:06:43 CET" duration-ms="69" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyArticlePageStructure status=SUCCESS method=WikipediaTest07.verifyArticlePageStructure()[pri:0, instance:WikipediaTest07@cd3fee8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest07@cd3fee8]" started-at="2026-03-14T17:06:43 CET" name="methodSetUp" finished-at="2026-03-14T17:06:43 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest07.verifyCorporateInfoboxDetails()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest07@cd3fee8]" started-at="2026-03-14T17:06:43 CET" name="setUp" finished-at="2026-03-14T17:06:44 CET" duration-ms="992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCorporateInfoboxDetails()[pri:0, instance:WikipediaTest07@cd3fee8]" started-at="2026-03-14T17:06:44 CET" name="verifyCorporateInfoboxDetails" finished-at="2026-03-14T17:06:45 CET" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCorporateInfoboxDetails -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest07@cd3fee8]" started-at="2026-03-14T17:06:45 CET" name="methodTearDown" finished-at="2026-03-14T17:06:45 CET" duration-ms="71" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCorporateInfoboxDetails status=SUCCESS method=WikipediaTest07.verifyCorporateInfoboxDetails()[pri:0, instance:WikipediaTest07@cd3fee8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest07@cd3fee8]" started-at="2026-03-14T17:06:45 CET" name="setUp" finished-at="2026-03-14T17:06:46 CET" duration-ms="1089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest07@cd3fee8]" started-at="2026-03-14T17:06:45 CET" name="methodSetUp" finished-at="2026-03-14T17:06:45 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest07.verifyFooterLinksExist()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method signature="verifyFooterLinksExist()[pri:0, instance:WikipediaTest07@cd3fee8]" started-at="2026-03-14T17:06:46 CET" name="verifyFooterLinksExist" finished-at="2026-03-14T17:06:46 CET" duration-ms="368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterLinksExist -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest07@cd3fee8]" started-at="2026-03-14T17:06:46 CET" name="methodTearDown" finished-at="2026-03-14T17:06:46 CET" duration-ms="81" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFooterLinksExist status=SUCCESS method=WikipediaTest07.verifyFooterLinksExist()[pri:0, instance:WikipediaTest07@cd3fee8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest07@cd3fee8]" started-at="2026-03-14T17:06:46 CET" name="methodSetUp" finished-at="2026-03-14T17:06:46 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest07.verifyMainContentSections()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest07@cd3fee8]" started-at="2026-03-14T17:06:46 CET" name="setUp" finished-at="2026-03-14T17:06:48 CET" duration-ms="1179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyMainContentSections()[pri:0, instance:WikipediaTest07@cd3fee8]" started-at="2026-03-14T17:06:48 CET" name="verifyMainContentSections" finished-at="2026-03-14T17:06:48 CET" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMainContentSections -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest07@cd3fee8]" started-at="2026-03-14T17:06:48 CET" name="methodTearDown" finished-at="2026-03-14T17:06:48 CET" duration-ms="69" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMainContentSections status=SUCCESS method=WikipediaTest07.verifyMainContentSections()[pri:0, instance:WikipediaTest07@cd3fee8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest07@cd3fee8]" started-at="2026-03-14T17:06:48 CET" name="setUp" finished-at="2026-03-14T17:06:49 CET" duration-ms="1061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest07@cd3fee8]" started-at="2026-03-14T17:06:48 CET" name="methodSetUp" finished-at="2026-03-14T17:06:48 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest07.verifyMajorFilmsMentions()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method signature="verifyMajorFilmsMentions()[pri:0, instance:WikipediaTest07@cd3fee8]" started-at="2026-03-14T17:06:49 CET" name="verifyMajorFilmsMentions" finished-at="2026-03-14T17:06:49 CET" duration-ms="435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMajorFilmsMentions -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest07@cd3fee8]" started-at="2026-03-14T17:06:49 CET" name="methodTearDown" finished-at="2026-03-14T17:06:49 CET" duration-ms="69" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMajorFilmsMentions status=SUCCESS method=WikipediaTest07.verifyMajorFilmsMentions()[pri:0, instance:WikipediaTest07@cd3fee8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest07@cd3fee8]" started-at="2026-03-14T17:06:49 CET" name="setUp" finished-at="2026-03-14T17:06:50 CET" duration-ms="1062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest07@cd3fee8]" started-at="2026-03-14T17:06:49 CET" name="methodSetUp" finished-at="2026-03-14T17:06:49 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest07.verifyPageHeaderTabs()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method signature="verifyPageHeaderTabs()[pri:0, instance:WikipediaTest07@cd3fee8]" started-at="2026-03-14T17:06:50 CET" name="verifyPageHeaderTabs" finished-at="2026-03-14T17:06:51 CET" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageHeaderTabs -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest07@cd3fee8]" started-at="2026-03-14T17:06:51 CET" name="methodTearDown" finished-at="2026-03-14T17:06:51 CET" duration-ms="70" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPageHeaderTabs status=SUCCESS method=WikipediaTest07.verifyPageHeaderTabs()[pri:0, instance:WikipediaTest07@cd3fee8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest07@cd3fee8]" started-at="2026-03-14T17:06:51 CET" name="methodSetUp" finished-at="2026-03-14T17:06:51 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest07.verifySidebarNavigationMenu()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest07@cd3fee8]" started-at="2026-03-14T17:06:51 CET" name="setUp" finished-at="2026-03-14T17:06:52 CET" duration-ms="1079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySidebarNavigationMenu()[pri:0, instance:WikipediaTest07@cd3fee8]" started-at="2026-03-14T17:06:52 CET" name="verifySidebarNavigationMenu" finished-at="2026-03-14T17:06:52 CET" duration-ms="433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySidebarNavigationMenu -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest07@cd3fee8]" started-at="2026-03-14T17:06:52 CET" name="methodTearDown" finished-at="2026-03-14T17:06:52 CET" duration-ms="78" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySidebarNavigationMenu status=SUCCESS method=WikipediaTest07.verifySidebarNavigationMenu()[pri:0, instance:WikipediaTest07@cd3fee8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+      </class> <!-- WikipediaTest07 -->
+      <class name="WikipediaTest08">
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest08@3e2e18f2]" started-at="2026-03-14T17:06:52 CET" name="methodSetUp" finished-at="2026-03-14T17:06:52 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest08.takeScreenshot() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest08@3e2e18f2]" started-at="2026-03-14T17:06:52 CET" name="setUp" finished-at="2026-03-14T17:06:53 CET" duration-ms="983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="takeScreenshot()[pri:0, instance:WikipediaTest08@3e2e18f2]" started-at="2026-03-14T17:06:53 CET" name="takeScreenshot" finished-at="2026-03-14T17:06:54 CET" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest08@3e2e18f2]" started-at="2026-03-14T17:06:54 CET" name="methodTearDown" finished-at="2026-03-14T17:06:54 CET" duration-ms="70" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=takeScreenshot status=SUCCESS method=WikipediaTest08.takeScreenshot()[pri:0, instance:WikipediaTest08@3e2e18f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest08@3e2e18f2]" started-at="2026-03-14T17:06:54 CET" name="setUp" finished-at="2026-03-14T17:06:55 CET" duration-ms="993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest08@3e2e18f2]" started-at="2026-03-14T17:06:54 CET" name="methodSetUp" finished-at="2026-03-14T17:06:54 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest08.verifyCalendarSection()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method signature="verifyCalendarSection()[pri:0, instance:WikipediaTest08@3e2e18f2]" started-at="2026-03-14T17:06:55 CET" name="verifyCalendarSection" finished-at="2026-03-14T17:06:55 CET" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCalendarSection -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest08@3e2e18f2]" started-at="2026-03-14T17:06:55 CET" name="methodTearDown" finished-at="2026-03-14T17:06:55 CET" duration-ms="69" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCalendarSection status=SUCCESS method=WikipediaTest08.verifyCalendarSection()[pri:0, instance:WikipediaTest08@3e2e18f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest08@3e2e18f2]" started-at="2026-03-14T17:06:55 CET" name="setUp" finished-at="2026-03-14T17:06:56 CET" duration-ms="1290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest08@3e2e18f2]" started-at="2026-03-14T17:06:55 CET" name="methodSetUp" finished-at="2026-03-14T17:06:55 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest08.verifyDefendingChampionJorgeMartin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method signature="verifyDefendingChampionJorgeMartin()[pri:0, instance:WikipediaTest08@3e2e18f2]" started-at="2026-03-14T17:06:56 CET" name="verifyDefendingChampionJorgeMartin" finished-at="2026-03-14T17:06:58 CET" duration-ms="1630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDefendingChampionJorgeMartin -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest08@3e2e18f2]" started-at="2026-03-14T17:06:58 CET" name="methodTearDown" finished-at="2026-03-14T17:06:58 CET" duration-ms="69" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDefendingChampionJorgeMartin status=SUCCESS method=WikipediaTest08.verifyDefendingChampionJorgeMartin()[pri:0, instance:WikipediaTest08@3e2e18f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest08@3e2e18f2]" started-at="2026-03-14T17:06:58 CET" name="methodSetUp" finished-at="2026-03-14T17:06:58 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest08.verifyMainTeams()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest08@3e2e18f2]" started-at="2026-03-14T17:06:58 CET" name="setUp" finished-at="2026-03-14T17:06:59 CET" duration-ms="1229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyMainTeams()[pri:0, instance:WikipediaTest08@3e2e18f2]" started-at="2026-03-14T17:06:59 CET" name="verifyMainTeams" finished-at="2026-03-14T17:07:01 CET" duration-ms="2114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMainTeams -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest08@3e2e18f2]" started-at="2026-03-14T17:07:01 CET" name="methodTearDown" finished-at="2026-03-14T17:07:01 CET" duration-ms="70" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMainTeams status=SUCCESS method=WikipediaTest08.verifyMainTeams()[pri:0, instance:WikipediaTest08@3e2e18f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest08@3e2e18f2]" started-at="2026-03-14T17:07:01 CET" name="methodSetUp" finished-at="2026-03-14T17:07:01 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest08.verifyMarcMarquezInformation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest08@3e2e18f2]" started-at="2026-03-14T17:07:01 CET" name="setUp" finished-at="2026-03-14T17:07:03 CET" duration-ms="1138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyMarcMarquezInformation()[pri:0, instance:WikipediaTest08@3e2e18f2]" started-at="2026-03-14T17:07:03 CET" name="verifyMarcMarquezInformation" finished-at="2026-03-14T17:07:04 CET" duration-ms="1801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMarcMarquezInformation -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest08@3e2e18f2]" started-at="2026-03-14T17:07:04 CET" name="methodTearDown" finished-at="2026-03-14T17:07:04 CET" duration-ms="68" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMarcMarquezInformation status=SUCCESS method=WikipediaTest08.verifyMarcMarquezInformation()[pri:0, instance:WikipediaTest08@3e2e18f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest08@3e2e18f2]" started-at="2026-03-14T17:07:04 CET" name="methodSetUp" finished-at="2026-03-14T17:07:04 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest08.verifyPageTitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest08@3e2e18f2]" started-at="2026-03-14T17:07:04 CET" name="setUp" finished-at="2026-03-14T17:07:06 CET" duration-ms="1150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyPageTitle()[pri:0, instance:WikipediaTest08@3e2e18f2]" started-at="2026-03-14T17:07:06 CET" name="verifyPageTitle" finished-at="2026-03-14T17:07:06 CET" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest08@3e2e18f2]" started-at="2026-03-14T17:07:06 CET" name="methodTearDown" finished-at="2026-03-14T17:07:06 CET" duration-ms="69" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPageTitle status=SUCCESS method=WikipediaTest08.verifyPageTitle()[pri:0, instance:WikipediaTest08@3e2e18f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest08@3e2e18f2]" started-at="2026-03-14T17:07:06 CET" name="methodSetUp" finished-at="2026-03-14T17:07:06 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest08.verifyReferenceLinks()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest08@3e2e18f2]" started-at="2026-03-14T17:07:06 CET" name="setUp" finished-at="2026-03-14T17:07:07 CET" duration-ms="1050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyReferenceLinks()[pri:0, instance:WikipediaTest08@3e2e18f2]" started-at="2026-03-14T17:07:07 CET" name="verifyReferenceLinks" finished-at="2026-03-14T17:07:07 CET" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyReferenceLinks -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest08@3e2e18f2]" started-at="2026-03-14T17:07:07 CET" name="methodTearDown" finished-at="2026-03-14T17:07:07 CET" duration-ms="75" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyReferenceLinks status=SUCCESS method=WikipediaTest08.verifyReferenceLinks()[pri:0, instance:WikipediaTest08@3e2e18f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest08@3e2e18f2]" started-at="2026-03-14T17:07:07 CET" name="methodSetUp" finished-at="2026-03-14T17:07:07 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest08.verifyResultsTables()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest08@3e2e18f2]" started-at="2026-03-14T17:07:07 CET" name="setUp" finished-at="2026-03-14T17:07:08 CET" duration-ms="1188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyResultsTables()[pri:0, instance:WikipediaTest08@3e2e18f2]" started-at="2026-03-14T17:07:08 CET" name="verifyResultsTables" finished-at="2026-03-14T17:07:08 CET" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResultsTables -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest08@3e2e18f2]" started-at="2026-03-14T17:07:08 CET" name="methodTearDown" finished-at="2026-03-14T17:07:09 CET" duration-ms="84" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyResultsTables status=SUCCESS method=WikipediaTest08.verifyResultsTables()[pri:0, instance:WikipediaTest08@3e2e18f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest08@3e2e18f2]" started-at="2026-03-14T17:07:09 CET" name="methodSetUp" finished-at="2026-03-14T17:07:09 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest08.verifyRidersSection()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest08@3e2e18f2]" started-at="2026-03-14T17:07:09 CET" name="setUp" finished-at="2026-03-14T17:07:10 CET" duration-ms="1100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRidersSection()[pri:0, instance:WikipediaTest08@3e2e18f2]" started-at="2026-03-14T17:07:10 CET" name="verifyRidersSection" finished-at="2026-03-14T17:07:10 CET" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRidersSection -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest08@3e2e18f2]" started-at="2026-03-14T17:07:10 CET" name="methodTearDown" finished-at="2026-03-14T17:07:10 CET" duration-ms="89" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyRidersSection status=SUCCESS method=WikipediaTest08.verifyRidersSection()[pri:0, instance:WikipediaTest08@3e2e18f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest08@3e2e18f2]" started-at="2026-03-14T17:07:10 CET" name="methodSetUp" finished-at="2026-03-14T17:07:10 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest08.verifySeasonChanges()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest08@3e2e18f2]" started-at="2026-03-14T17:07:10 CET" name="setUp" finished-at="2026-03-14T17:07:11 CET" duration-ms="1355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySeasonChanges()[pri:0, instance:WikipediaTest08@3e2e18f2]" started-at="2026-03-14T17:07:11 CET" name="verifySeasonChanges" finished-at="2026-03-14T17:07:13 CET" duration-ms="1598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySeasonChanges -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest08@3e2e18f2]" started-at="2026-03-14T17:07:13 CET" name="methodTearDown" finished-at="2026-03-14T17:07:13 CET" duration-ms="69" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySeasonChanges status=SUCCESS method=WikipediaTest08.verifySeasonChanges()[pri:0, instance:WikipediaTest08@3e2e18f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest08@3e2e18f2]" started-at="2026-03-14T17:07:13 CET" name="methodSetUp" finished-at="2026-03-14T17:07:13 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest08.verifyTableOfContents()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest08@3e2e18f2]" started-at="2026-03-14T17:07:13 CET" name="setUp" finished-at="2026-03-14T17:07:14 CET" duration-ms="991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTableOfContents()[pri:0, instance:WikipediaTest08@3e2e18f2]" started-at="2026-03-14T17:07:14 CET" name="verifyTableOfContents" finished-at="2026-03-14T17:07:14 CET" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTableOfContents -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest08@3e2e18f2]" started-at="2026-03-14T17:07:14 CET" name="methodTearDown" finished-at="2026-03-14T17:07:14 CET" duration-ms="84" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTableOfContents status=SUCCESS method=WikipediaTest08.verifyTableOfContents()[pri:0, instance:WikipediaTest08@3e2e18f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+      </class> <!-- WikipediaTest08 -->
+      <class name="WikipediaTest09">
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest09@470f1802]" started-at="2026-03-14T17:07:14 CET" name="methodSetUp" finished-at="2026-03-14T17:07:14 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest09.quickVerificationOfMultipleMediaWikiSites()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest09@470f1802]" started-at="2026-03-14T17:07:14 CET" name="setUp" finished-at="2026-03-14T17:07:21 CET" duration-ms="6842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="quickVerificationOfMultipleMediaWikiSites()[pri:0, instance:WikipediaTest09@470f1802]" started-at="2026-03-14T17:07:21 CET" name="quickVerificationOfMultipleMediaWikiSites" finished-at="2026-03-14T17:07:29 CET" duration-ms="8236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quickVerificationOfMultipleMediaWikiSites -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest09@470f1802]" started-at="2026-03-14T17:07:29 CET" name="methodTearDown" finished-at="2026-03-14T17:07:30 CET" duration-ms="573" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=quickVerificationOfMultipleMediaWikiSites status=SUCCESS method=WikipediaTest09.quickVerificationOfMultipleMediaWikiSites()[pri:0, instance:WikipediaTest09@470f1802] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest09@470f1802]" started-at="2026-03-14T17:07:30 CET" name="methodSetUp" finished-at="2026-03-14T17:07:30 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest09.verifyMediaWikiSiteStructureAndLinks(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest09@470f1802]" started-at="2026-03-14T17:07:30 CET" name="setUp" finished-at="2026-03-14T17:07:30 CET" duration-ms="357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyMediaWikiSiteStructureAndLinks(java.lang.String,java.lang.String)[pri:0, instance:WikipediaTest09@470f1802]" started-at="2026-03-14T17:07:30 CET" name="verifyMediaWikiSiteStructureAndLinks" data-provider="mediaWikiSites" finished-at="2026-03-14T17:07:42 CET" duration-ms="11926" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Wikipedia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://en.wikipedia.org/wiki/Main_Page]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMediaWikiSiteStructureAndLinks -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest09@470f1802]" started-at="2026-03-14T17:07:42 CET" name="methodTearDown" finished-at="2026-03-14T17:07:42 CET" duration-ms="84" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMediaWikiSiteStructureAndLinks status=SUCCESS method=WikipediaTest09.verifyMediaWikiSiteStructureAndLinks(java.lang.String,java.lang.String)[pri:0, instance:WikipediaTest09@470f1802] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest09@470f1802]" started-at="2026-03-14T17:07:42 CET" name="methodSetUp" finished-at="2026-03-14T17:07:42 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest09.verifyMediaWikiSiteStructureAndLinks(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest09@470f1802]" started-at="2026-03-14T17:07:42 CET" name="setUp" finished-at="2026-03-14T17:07:43 CET" duration-ms="426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyMediaWikiSiteStructureAndLinks(java.lang.String,java.lang.String)[pri:0, instance:WikipediaTest09@470f1802]" started-at="2026-03-14T17:07:43 CET" name="verifyMediaWikiSiteStructureAndLinks" data-provider="mediaWikiSites" finished-at="2026-03-14T17:07:50 CET" duration-ms="7437" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Wikimedia Commons]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://commons.wikimedia.org/wiki/Main_Page]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMediaWikiSiteStructureAndLinks -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest09@470f1802]" started-at="2026-03-14T17:07:50 CET" name="methodTearDown" finished-at="2026-03-14T17:07:50 CET" duration-ms="76" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMediaWikiSiteStructureAndLinks status=SUCCESS method=WikipediaTest09.verifyMediaWikiSiteStructureAndLinks(java.lang.String,java.lang.String)[pri:0, instance:WikipediaTest09@470f1802] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest09@470f1802]" started-at="2026-03-14T17:07:50 CET" name="methodSetUp" finished-at="2026-03-14T17:07:50 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest09.verifyMediaWikiSiteStructureAndLinks(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest09@470f1802]" started-at="2026-03-14T17:07:50 CET" name="setUp" finished-at="2026-03-14T17:07:51 CET" duration-ms="493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyMediaWikiSiteStructureAndLinks(java.lang.String,java.lang.String)[pri:0, instance:WikipediaTest09@470f1802]" started-at="2026-03-14T17:07:51 CET" name="verifyMediaWikiSiteStructureAndLinks" data-provider="mediaWikiSites" finished-at="2026-03-14T17:07:54 CET" duration-ms="3581" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Wikidata]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.wikidata.org/wiki/Wikidata:Main_Page]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMediaWikiSiteStructureAndLinks -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest09@470f1802]" started-at="2026-03-14T17:07:54 CET" name="methodTearDown" finished-at="2026-03-14T17:07:54 CET" duration-ms="72" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMediaWikiSiteStructureAndLinks status=SUCCESS method=WikipediaTest09.verifyMediaWikiSiteStructureAndLinks(java.lang.String,java.lang.String)[pri:0, instance:WikipediaTest09@470f1802] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest09@470f1802]" started-at="2026-03-14T17:07:54 CET" name="methodSetUp" finished-at="2026-03-14T17:07:54 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest09.verifyMediaWikiSiteStructureAndLinks(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest09@470f1802]" started-at="2026-03-14T17:07:54 CET" name="setUp" finished-at="2026-03-14T17:07:55 CET" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyMediaWikiSiteStructureAndLinks(java.lang.String,java.lang.String)[pri:0, instance:WikipediaTest09@470f1802]" started-at="2026-03-14T17:07:55 CET" name="verifyMediaWikiSiteStructureAndLinks" data-provider="mediaWikiSites" finished-at="2026-03-14T17:07:59 CET" duration-ms="4197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Wikivoyage]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://en.wikivoyage.org/wiki/Main_Page]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMediaWikiSiteStructureAndLinks -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest09@470f1802]" started-at="2026-03-14T17:07:59 CET" name="methodTearDown" finished-at="2026-03-14T17:07:59 CET" duration-ms="94" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMediaWikiSiteStructureAndLinks status=SUCCESS method=WikipediaTest09.verifyMediaWikiSiteStructureAndLinks(java.lang.String,java.lang.String)[pri:0, instance:WikipediaTest09@470f1802] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest09@470f1802]" started-at="2026-03-14T17:07:59 CET" name="setUp" finished-at="2026-03-14T17:07:59 CET" duration-ms="367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest09@470f1802]" started-at="2026-03-14T17:07:59 CET" name="methodSetUp" finished-at="2026-03-14T17:07:59 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest09.verifyMediaWikiSiteStructureAndLinks(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method signature="verifyMediaWikiSiteStructureAndLinks(java.lang.String,java.lang.String)[pri:0, instance:WikipediaTest09@470f1802]" started-at="2026-03-14T17:07:59 CET" name="verifyMediaWikiSiteStructureAndLinks" data-provider="mediaWikiSites" finished-at="2026-03-14T17:08:11 CET" duration-ms="11966" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Wiktionary]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://en.wiktionary.org/wiki/Wiktionary:Main_Page]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMediaWikiSiteStructureAndLinks -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest09@470f1802]" started-at="2026-03-14T17:08:11 CET" name="methodTearDown" finished-at="2026-03-14T17:08:11 CET" duration-ms="124" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMediaWikiSiteStructureAndLinks status=SUCCESS method=WikipediaTest09.verifyMediaWikiSiteStructureAndLinks(java.lang.String,java.lang.String)[pri:0, instance:WikipediaTest09@470f1802] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest09@470f1802]" started-at="2026-03-14T17:08:11 CET" name="setUp" finished-at="2026-03-14T17:08:12 CET" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest09@470f1802]" started-at="2026-03-14T17:08:11 CET" name="methodSetUp" finished-at="2026-03-14T17:08:11 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest09.verifyMediaWikiSiteStructureAndLinks(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method signature="verifyMediaWikiSiteStructureAndLinks(java.lang.String,java.lang.String)[pri:0, instance:WikipediaTest09@470f1802]" started-at="2026-03-14T17:08:12 CET" name="verifyMediaWikiSiteStructureAndLinks" data-provider="mediaWikiSites" finished-at="2026-03-14T17:08:15 CET" duration-ms="3293" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MediaWiki]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.mediawiki.org/wiki/MediaWiki]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMediaWikiSiteStructureAndLinks -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest09@470f1802]" started-at="2026-03-14T17:08:15 CET" name="methodTearDown" finished-at="2026-03-14T17:08:15 CET" duration-ms="71" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMediaWikiSiteStructureAndLinks status=SUCCESS method=WikipediaTest09.verifyMediaWikiSiteStructureAndLinks(java.lang.String,java.lang.String)[pri:0, instance:WikipediaTest09@470f1802] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest09@470f1802]" started-at="2026-03-14T17:08:15 CET" name="setUp" finished-at="2026-03-14T17:08:15 CET" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest09@470f1802]" started-at="2026-03-14T17:08:15 CET" name="methodSetUp" finished-at="2026-03-14T17:08:15 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest09.verifyMediaWikiSiteStructureAndLinks(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method signature="verifyMediaWikiSiteStructureAndLinks(java.lang.String,java.lang.String)[pri:0, instance:WikipediaTest09@470f1802]" started-at="2026-03-14T17:08:15 CET" name="verifyMediaWikiSiteStructureAndLinks" data-provider="mediaWikiSites" finished-at="2026-03-14T17:08:19 CET" duration-ms="4033" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Wikiversity]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://en.wikiversity.org/wiki/Wikiversity:Main_Page]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMediaWikiSiteStructureAndLinks -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest09@470f1802]" started-at="2026-03-14T17:08:19 CET" name="methodTearDown" finished-at="2026-03-14T17:08:20 CET" duration-ms="86" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMediaWikiSiteStructureAndLinks status=SUCCESS method=WikipediaTest09.verifyMediaWikiSiteStructureAndLinks(java.lang.String,java.lang.String)[pri:0, instance:WikipediaTest09@470f1802] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest09@470f1802]" started-at="2026-03-14T17:08:20 CET" name="methodSetUp" finished-at="2026-03-14T17:08:20 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest09.verifyMediaWikiSiteStructureAndLinks(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest09@470f1802]" started-at="2026-03-14T17:08:20 CET" name="setUp" finished-at="2026-03-14T17:08:20 CET" duration-ms="388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyMediaWikiSiteStructureAndLinks(java.lang.String,java.lang.String)[pri:0, instance:WikipediaTest09@470f1802]" started-at="2026-03-14T17:08:20 CET" name="verifyMediaWikiSiteStructureAndLinks" data-provider="mediaWikiSites" finished-at="2026-03-14T17:08:25 CET" duration-ms="5592" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Wikinews]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://en.wikinews.org/wiki/Main_Page]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMediaWikiSiteStructureAndLinks -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest09@470f1802]" started-at="2026-03-14T17:08:25 CET" name="methodTearDown" finished-at="2026-03-14T17:08:26 CET" duration-ms="89" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMediaWikiSiteStructureAndLinks status=SUCCESS method=WikipediaTest09.verifyMediaWikiSiteStructureAndLinks(java.lang.String,java.lang.String)[pri:0, instance:WikipediaTest09@470f1802] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+      </class> <!-- WikipediaTest09 -->
+      <class name="WikipediaTest10">
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest10@63021689]" started-at="2026-03-14T17:08:26 CET" name="methodSetUp" finished-at="2026-03-14T17:08:26 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest10.completeDonationFlowValidation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest10@63021689]" started-at="2026-03-14T17:08:26 CET" name="setUp" finished-at="2026-03-14T17:08:26 CET" duration-ms="391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="completeDonationFlowValidation()[pri:0, instance:WikipediaTest10@63021689]" started-at="2026-03-14T17:08:26 CET" name="completeDonationFlowValidation" finished-at="2026-03-14T17:08:27 CET" duration-ms="1339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeDonationFlowValidation -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest10@63021689]" started-at="2026-03-14T17:08:27 CET" name="methodTearDown" finished-at="2026-03-14T17:08:27 CET" duration-ms="69" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=completeDonationFlowValidation status=SUCCESS method=WikipediaTest10.completeDonationFlowValidation()[pri:0, instance:WikipediaTest10@63021689] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest10@63021689]" started-at="2026-03-14T17:08:27 CET" name="methodSetUp" finished-at="2026-03-14T17:08:27 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest10.verifyCountrySelectionShowsSpain()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest10@63021689]" started-at="2026-03-14T17:08:27 CET" name="setUp" finished-at="2026-03-14T17:08:28 CET" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCountrySelectionShowsSpain()[pri:0, instance:WikipediaTest10@63021689]" started-at="2026-03-14T17:08:28 CET" name="verifyCountrySelectionShowsSpain" finished-at="2026-03-14T17:09:28 CET" duration-ms="60376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCountrySelectionShowsSpain -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest10@63021689]" started-at="2026-03-14T17:09:28 CET" name="methodTearDown" finished-at="2026-03-14T17:09:28 CET" duration-ms="84" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCountrySelectionShowsSpain status=SUCCESS method=WikipediaTest10.verifyCountrySelectionShowsSpain()[pri:0, instance:WikipediaTest10@63021689] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest10@63021689]" started-at="2026-03-14T17:09:28 CET" name="methodSetUp" finished-at="2026-03-14T17:09:28 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest10.verifyCurrencyIsSetToEUR()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest10@63021689]" started-at="2026-03-14T17:09:28 CET" name="setUp" finished-at="2026-03-14T17:09:29 CET" duration-ms="366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCurrencyIsSetToEUR()[pri:0, instance:WikipediaTest10@63021689]" started-at="2026-03-14T17:09:29 CET" name="verifyCurrencyIsSetToEUR" finished-at="2026-03-14T17:09:29 CET" duration-ms="954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCurrencyIsSetToEUR -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest10@63021689]" started-at="2026-03-14T17:09:29 CET" name="methodTearDown" finished-at="2026-03-14T17:09:30 CET" duration-ms="81" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCurrencyIsSetToEUR status=SUCCESS method=WikipediaTest10.verifyCurrencyIsSetToEUR()[pri:0, instance:WikipediaTest10@63021689] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest10@63021689]" started-at="2026-03-14T17:09:30 CET" name="methodSetUp" finished-at="2026-03-14T17:09:30 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest10.verifyDonationAmountOptions()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest10@63021689]" started-at="2026-03-14T17:09:30 CET" name="setUp" finished-at="2026-03-14T17:09:36 CET" duration-ms="6571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDonationAmountOptions()[pri:0, instance:WikipediaTest10@63021689]" started-at="2026-03-14T17:09:36 CET" name="verifyDonationAmountOptions" finished-at="2026-03-14T17:09:37 CET" duration-ms="975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDonationAmountOptions -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest10@63021689]" started-at="2026-03-14T17:09:37 CET" name="methodTearDown" finished-at="2026-03-14T17:09:37 CET" duration-ms="86" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDonationAmountOptions status=SUCCESS method=WikipediaTest10.verifyDonationAmountOptions()[pri:0, instance:WikipediaTest10@63021689] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest10@63021689]" started-at="2026-03-14T17:09:37 CET" name="methodSetUp" finished-at="2026-03-14T17:09:37 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest10.verifyDonationFrequencyOptions()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest10@63021689]" started-at="2026-03-14T17:09:37 CET" name="setUp" finished-at="2026-03-14T17:09:38 CET" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDonationFrequencyOptions()[pri:0, instance:WikipediaTest10@63021689]" started-at="2026-03-14T17:09:38 CET" name="verifyDonationFrequencyOptions" finished-at="2026-03-14T17:09:38 CET" duration-ms="483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDonationFrequencyOptions -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest10@63021689]" started-at="2026-03-14T17:09:38 CET" name="methodTearDown" finished-at="2026-03-14T17:09:38 CET" duration-ms="67" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDonationFrequencyOptions status=SUCCESS method=WikipediaTest10.verifyDonationFrequencyOptions()[pri:0, instance:WikipediaTest10@63021689] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest10@63021689]" started-at="2026-03-14T17:09:38 CET" name="methodSetUp" finished-at="2026-03-14T17:09:38 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest10.verifyDonationPageLoadsCorrectly()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest10@63021689]" started-at="2026-03-14T17:09:38 CET" name="setUp" finished-at="2026-03-14T17:09:38 CET" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDonationPageLoadsCorrectly()[pri:0, instance:WikipediaTest10@63021689]" started-at="2026-03-14T17:09:38 CET" name="verifyDonationPageLoadsCorrectly" finished-at="2026-03-14T17:09:39 CET" duration-ms="656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDonationPageLoadsCorrectly -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest10@63021689]" started-at="2026-03-14T17:09:39 CET" name="methodTearDown" finished-at="2026-03-14T17:09:39 CET" duration-ms="72" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDonationPageLoadsCorrectly status=SUCCESS method=WikipediaTest10.verifyDonationPageLoadsCorrectly()[pri:0, instance:WikipediaTest10@63021689] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest10@63021689]" started-at="2026-03-14T17:09:39 CET" name="methodSetUp" finished-at="2026-03-14T17:09:39 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest10.verifyDonationSubmitButton()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest10@63021689]" started-at="2026-03-14T17:09:39 CET" name="setUp" finished-at="2026-03-14T17:09:40 CET" duration-ms="541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDonationSubmitButton()[pri:0, instance:WikipediaTest10@63021689]" started-at="2026-03-14T17:09:40 CET" name="verifyDonationSubmitButton" finished-at="2026-03-14T17:09:40 CET" duration-ms="632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDonationSubmitButton -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest10@63021689]" started-at="2026-03-14T17:09:40 CET" name="methodTearDown" finished-at="2026-03-14T17:09:40 CET" duration-ms="72" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDonationSubmitButton status=SUCCESS method=WikipediaTest10.verifyDonationSubmitButton()[pri:0, instance:WikipediaTest10@63021689] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest10@63021689]" started-at="2026-03-14T17:09:40 CET" name="methodSetUp" finished-at="2026-03-14T17:09:40 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest10.verifyPaymentMethodOptions()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest10@63021689]" started-at="2026-03-14T17:09:40 CET" name="setUp" finished-at="2026-03-14T17:09:41 CET" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyPaymentMethodOptions()[pri:0, instance:WikipediaTest10@63021689]" started-at="2026-03-14T17:09:41 CET" name="verifyPaymentMethodOptions" finished-at="2026-03-14T17:09:41 CET" duration-ms="565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPaymentMethodOptions -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest10@63021689]" started-at="2026-03-14T17:09:41 CET" name="methodTearDown" finished-at="2026-03-14T17:09:41 CET" duration-ms="85" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPaymentMethodOptions status=SUCCESS method=WikipediaTest10.verifyPaymentMethodOptions()[pri:0, instance:WikipediaTest10@63021689] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest10@63021689]" started-at="2026-03-14T17:09:41 CET" name="methodSetUp" finished-at="2026-03-14T17:09:41 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest10.verifyWikimediaBrandingAndTrustIndicators()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest10@63021689]" started-at="2026-03-14T17:09:41 CET" name="setUp" finished-at="2026-03-14T17:09:42 CET" duration-ms="463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyWikimediaBrandingAndTrustIndicators()[pri:0, instance:WikipediaTest10@63021689]" started-at="2026-03-14T17:09:42 CET" name="verifyWikimediaBrandingAndTrustIndicators" finished-at="2026-03-14T17:09:43 CET" duration-ms="1298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWikimediaBrandingAndTrustIndicators -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest10@63021689]" started-at="2026-03-14T17:09:43 CET" name="methodTearDown" finished-at="2026-03-14T17:09:43 CET" duration-ms="68" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWikimediaBrandingAndTrustIndicators status=SUCCESS method=WikipediaTest10.verifyWikimediaBrandingAndTrustIndicators()[pri:0, instance:WikipediaTest10@63021689] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+      </class> <!-- WikipediaTest10 -->
+      <class name="WikipediaTest01">
+        <test-method is-config="true" signature="suiteSetUp()[pri:0, instance:WikipediaTest01@7880cdf3]" started-at="2026-03-14T17:05:43 CET" name="suiteSetUp" finished-at="2026-03-14T17:05:45 CET" duration-ms="2929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetUp -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest01@7880cdf3]" started-at="2026-03-14T17:05:45 CET" name="methodSetUp" finished-at="2026-03-14T17:05:45 CET" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest01.verifyAllContentSections()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest01@7880cdf3]" started-at="2026-03-14T17:05:45 CET" name="setUp" finished-at="2026-03-14T17:05:46 CET" duration-ms="982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAllContentSections()[pri:0, instance:WikipediaTest01@7880cdf3]" started-at="2026-03-14T17:05:46 CET" name="verifyAllContentSections" finished-at="2026-03-14T17:05:47 CET" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllContentSections -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest01@7880cdf3]" started-at="2026-03-14T17:05:47 CET" name="methodTearDown" finished-at="2026-03-14T17:05:47 CET" duration-ms="89" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAllContentSections status=SUCCESS method=WikipediaTest01.verifyAllContentSections()[pri:0, instance:WikipediaTest01@7880cdf3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest01@7880cdf3]" started-at="2026-03-14T17:05:47 CET" name="methodSetUp" finished-at="2026-03-14T17:05:47 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest01.verifyAvailableLanguages()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest01@7880cdf3]" started-at="2026-03-14T17:05:47 CET" name="setUp" finished-at="2026-03-14T17:05:54 CET" duration-ms="7185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAvailableLanguages()[pri:0, instance:WikipediaTest01@7880cdf3]" started-at="2026-03-14T17:05:54 CET" name="verifyAvailableLanguages" finished-at="2026-03-14T17:05:54 CET" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAvailableLanguages -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest01@7880cdf3]" started-at="2026-03-14T17:05:54 CET" name="methodTearDown" finished-at="2026-03-14T17:05:54 CET" duration-ms="75" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAvailableLanguages status=SUCCESS method=WikipediaTest01.verifyAvailableLanguages()[pri:0, instance:WikipediaTest01@7880cdf3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest01@7880cdf3]" started-at="2026-03-14T17:05:54 CET" name="methodSetUp" finished-at="2026-03-14T17:05:54 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest01.verifyFooterLinksExist()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest01@7880cdf3]" started-at="2026-03-14T17:05:54 CET" name="setUp" finished-at="2026-03-14T17:05:55 CET" duration-ms="989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyFooterLinksExist()[pri:0, instance:WikipediaTest01@7880cdf3]" started-at="2026-03-14T17:05:55 CET" name="verifyFooterLinksExist" finished-at="2026-03-14T17:05:55 CET" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterLinksExist -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest01@7880cdf3]" started-at="2026-03-14T17:05:55 CET" name="methodTearDown" finished-at="2026-03-14T17:05:55 CET" duration-ms="71" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFooterLinksExist status=SUCCESS method=WikipediaTest01.verifyFooterLinksExist()[pri:0, instance:WikipediaTest01@7880cdf3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest01@7880cdf3]" started-at="2026-03-14T17:05:55 CET" name="methodSetUp" finished-at="2026-03-14T17:05:55 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest01.verifyMainPageStructure()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest01@7880cdf3]" started-at="2026-03-14T17:05:55 CET" name="setUp" finished-at="2026-03-14T17:05:56 CET" duration-ms="1038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyMainPageStructure()[pri:0, instance:WikipediaTest01@7880cdf3]" started-at="2026-03-14T17:05:56 CET" name="verifyMainPageStructure" finished-at="2026-03-14T17:05:56 CET" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMainPageStructure -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest01@7880cdf3]" started-at="2026-03-14T17:05:56 CET" name="methodTearDown" finished-at="2026-03-14T17:05:56 CET" duration-ms="71" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMainPageStructure status=SUCCESS method=WikipediaTest01.verifyMainPageStructure()[pri:0, instance:WikipediaTest01@7880cdf3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest01@7880cdf3]" started-at="2026-03-14T17:05:56 CET" name="methodSetUp" finished-at="2026-03-14T17:05:56 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest01.verifyPageHeaderTabs()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest01@7880cdf3]" started-at="2026-03-14T17:05:56 CET" name="setUp" finished-at="2026-03-14T17:05:57 CET" duration-ms="987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyPageHeaderTabs()[pri:0, instance:WikipediaTest01@7880cdf3]" started-at="2026-03-14T17:05:57 CET" name="verifyPageHeaderTabs" finished-at="2026-03-14T17:05:58 CET" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageHeaderTabs -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest01@7880cdf3]" started-at="2026-03-14T17:05:58 CET" name="methodTearDown" finished-at="2026-03-14T17:05:58 CET" duration-ms="85" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPageHeaderTabs status=SUCCESS method=WikipediaTest01.verifyPageHeaderTabs()[pri:0, instance:WikipediaTest01@7880cdf3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest01@7880cdf3]" started-at="2026-03-14T17:05:58 CET" name="methodSetUp" finished-at="2026-03-14T17:05:58 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest01.verifySearchFunctionality()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest01@7880cdf3]" started-at="2026-03-14T17:05:58 CET" name="setUp" finished-at="2026-03-14T17:05:59 CET" duration-ms="964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchFunctionality()[pri:0, instance:WikipediaTest01@7880cdf3]" started-at="2026-03-14T17:05:59 CET" name="verifySearchFunctionality" finished-at="2026-03-14T17:06:00 CET" duration-ms="870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchFunctionality -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest01@7880cdf3]" started-at="2026-03-14T17:06:00 CET" name="methodTearDown" finished-at="2026-03-14T17:06:00 CET" duration-ms="72" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySearchFunctionality status=SUCCESS method=WikipediaTest01.verifySearchFunctionality()[pri:0, instance:WikipediaTest01@7880cdf3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest01@7880cdf3]" started-at="2026-03-14T17:06:00 CET" name="setUp" finished-at="2026-03-14T17:06:01 CET" duration-ms="1073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest01@7880cdf3]" started-at="2026-03-14T17:06:00 CET" name="methodSetUp" finished-at="2026-03-14T17:06:00 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest01.verifySidebarNavigationMenu()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method signature="verifySidebarNavigationMenu()[pri:0, instance:WikipediaTest01@7880cdf3]" started-at="2026-03-14T17:06:01 CET" name="verifySidebarNavigationMenu" finished-at="2026-03-14T17:06:01 CET" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySidebarNavigationMenu -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest01@7880cdf3]" started-at="2026-03-14T17:06:01 CET" name="methodTearDown" finished-at="2026-03-14T17:06:01 CET" duration-ms="72" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySidebarNavigationMenu status=SUCCESS method=WikipediaTest01.verifySidebarNavigationMenu()[pri:0, instance:WikipediaTest01@7880cdf3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest01@7880cdf3]" started-at="2026-03-14T17:06:01 CET" name="methodSetUp" finished-at="2026-03-14T17:06:01 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest01.verifySisterProjectsSection()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest01@7880cdf3]" started-at="2026-03-14T17:06:01 CET" name="setUp" finished-at="2026-03-14T17:06:02 CET" duration-ms="1100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySisterProjectsSection()[pri:0, instance:WikipediaTest01@7880cdf3]" started-at="2026-03-14T17:06:02 CET" name="verifySisterProjectsSection" finished-at="2026-03-14T17:06:02 CET" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySisterProjectsSection -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest01@7880cdf3]" started-at="2026-03-14T17:06:02 CET" name="methodTearDown" finished-at="2026-03-14T17:06:02 CET" duration-ms="80" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySisterProjectsSection status=SUCCESS method=WikipediaTest01.verifySisterProjectsSection()[pri:0, instance:WikipediaTest01@7880cdf3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest01@7880cdf3]" started-at="2026-03-14T17:06:02 CET" name="setUp" finished-at="2026-03-14T17:06:03 CET" duration-ms="980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest01@7880cdf3]" started-at="2026-03-14T17:06:02 CET" name="methodSetUp" finished-at="2026-03-14T17:06:02 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest01.verifyTodayFeaturedArticleExists()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method signature="verifyTodayFeaturedArticleExists()[pri:0, instance:WikipediaTest01@7880cdf3]" started-at="2026-03-14T17:06:03 CET" name="verifyTodayFeaturedArticleExists" finished-at="2026-03-14T17:06:03 CET" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTodayFeaturedArticleExists -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest01@7880cdf3]" started-at="2026-03-14T17:06:03 CET" name="methodTearDown" finished-at="2026-03-14T17:06:04 CET" duration-ms="80" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTodayFeaturedArticleExists status=SUCCESS method=WikipediaTest01.verifyTodayFeaturedArticleExists()[pri:0, instance:WikipediaTest01@7880cdf3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest01@7880cdf3]" started-at="2026-03-14T17:06:04 CET" name="methodSetUp" finished-at="2026-03-14T17:06:04 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest01.verifyWikipediaLogoLinksToMainPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest01@7880cdf3]" started-at="2026-03-14T17:06:04 CET" name="setUp" finished-at="2026-03-14T17:06:05 CET" duration-ms="1175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyWikipediaLogoLinksToMainPage()[pri:0, instance:WikipediaTest01@7880cdf3]" started-at="2026-03-14T17:06:05 CET" name="verifyWikipediaLogoLinksToMainPage" finished-at="2026-03-14T17:06:05 CET" duration-ms="622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWikipediaLogoLinksToMainPage -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest01@7880cdf3]" started-at="2026-03-14T17:06:05 CET" name="methodTearDown" finished-at="2026-03-14T17:06:05 CET" duration-ms="69" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWikipediaLogoLinksToMainPage status=SUCCESS method=WikipediaTest01.verifyWikipediaLogoLinksToMainPage()[pri:0, instance:WikipediaTest01@7880cdf3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="suiteTearDown()[pri:0, instance:WikipediaTest01@7880cdf3]" started-at="2026-03-14T17:09:43 CET" name="suiteTearDown" finished-at="2026-03-14T17:09:43 CET" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTearDown -->
+      </class> <!-- WikipediaTest01 -->
+      <class name="WikipediaTest02">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest02@4a22f9e2]" started-at="2026-03-14T17:06:05 CET" name="setUp" finished-at="2026-03-14T17:06:06 CET" duration-ms="861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest02@4a22f9e2]" started-at="2026-03-14T17:06:05 CET" name="methodSetUp" finished-at="2026-03-14T17:06:05 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest02.verifyAllContentSections()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method signature="verifyAllContentSections()[pri:0, instance:WikipediaTest02@4a22f9e2]" started-at="2026-03-14T17:06:06 CET" name="verifyAllContentSections" finished-at="2026-03-14T17:06:06 CET" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllContentSections -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest02@4a22f9e2]" started-at="2026-03-14T17:06:06 CET" name="methodTearDown" finished-at="2026-03-14T17:06:06 CET" duration-ms="70" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAllContentSections status=SUCCESS method=WikipediaTest02.verifyAllContentSections()[pri:0, instance:WikipediaTest02@4a22f9e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest02@4a22f9e2]" started-at="2026-03-14T17:06:06 CET" name="methodSetUp" finished-at="2026-03-14T17:06:06 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest02.verifyArticlePageStructure()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest02@4a22f9e2]" started-at="2026-03-14T17:06:06 CET" name="setUp" finished-at="2026-03-14T17:06:07 CET" duration-ms="983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyArticlePageStructure()[pri:0, instance:WikipediaTest02@4a22f9e2]" started-at="2026-03-14T17:06:07 CET" name="verifyArticlePageStructure" finished-at="2026-03-14T17:06:08 CET" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyArticlePageStructure -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest02@4a22f9e2]" started-at="2026-03-14T17:06:08 CET" name="methodTearDown" finished-at="2026-03-14T17:06:08 CET" duration-ms="74" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyArticlePageStructure status=SUCCESS method=WikipediaTest02.verifyArticlePageStructure()[pri:0, instance:WikipediaTest02@4a22f9e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest02@4a22f9e2]" started-at="2026-03-14T17:06:08 CET" name="methodSetUp" finished-at="2026-03-14T17:06:08 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest02.verifyFooterLinksExist()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest02@4a22f9e2]" started-at="2026-03-14T17:06:08 CET" name="setUp" finished-at="2026-03-14T17:06:09 CET" duration-ms="1065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyFooterLinksExist()[pri:0, instance:WikipediaTest02@4a22f9e2]" started-at="2026-03-14T17:06:09 CET" name="verifyFooterLinksExist" finished-at="2026-03-14T17:06:09 CET" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterLinksExist -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest02@4a22f9e2]" started-at="2026-03-14T17:06:09 CET" name="methodTearDown" finished-at="2026-03-14T17:06:09 CET" duration-ms="84" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFooterLinksExist status=SUCCESS method=WikipediaTest02.verifyFooterLinksExist()[pri:0, instance:WikipediaTest02@4a22f9e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest02@4a22f9e2]" started-at="2026-03-14T17:06:09 CET" name="methodSetUp" finished-at="2026-03-14T17:06:09 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest02.verifyModelsSubsections()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest02@4a22f9e2]" started-at="2026-03-14T17:06:09 CET" name="setUp" finished-at="2026-03-14T17:06:10 CET" duration-ms="941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyModelsSubsections()[pri:0, instance:WikipediaTest02@4a22f9e2]" started-at="2026-03-14T17:06:10 CET" name="verifyModelsSubsections" finished-at="2026-03-14T17:06:10 CET" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyModelsSubsections -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest02@4a22f9e2]" started-at="2026-03-14T17:06:10 CET" name="methodTearDown" finished-at="2026-03-14T17:06:10 CET" duration-ms="69" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyModelsSubsections status=SUCCESS method=WikipediaTest02.verifyModelsSubsections()[pri:0, instance:WikipediaTest02@4a22f9e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest02@4a22f9e2]" started-at="2026-03-14T17:06:10 CET" name="methodSetUp" finished-at="2026-03-14T17:06:10 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest02.verifyPageHeaderTabs()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest02@4a22f9e2]" started-at="2026-03-14T17:06:10 CET" name="setUp" finished-at="2026-03-14T17:06:11 CET" duration-ms="891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyPageHeaderTabs()[pri:0, instance:WikipediaTest02@4a22f9e2]" started-at="2026-03-14T17:06:11 CET" name="verifyPageHeaderTabs" finished-at="2026-03-14T17:06:11 CET" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageHeaderTabs -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest02@4a22f9e2]" started-at="2026-03-14T17:06:11 CET" name="methodTearDown" finished-at="2026-03-14T17:06:11 CET" duration-ms="70" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPageHeaderTabs status=SUCCESS method=WikipediaTest02.verifyPageHeaderTabs()[pri:0, instance:WikipediaTest02@4a22f9e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest02@4a22f9e2]" started-at="2026-03-14T17:06:11 CET" name="methodSetUp" finished-at="2026-03-14T17:06:11 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest02.verifySidebarNavigationMenu()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest02@4a22f9e2]" started-at="2026-03-14T17:06:11 CET" name="setUp" finished-at="2026-03-14T17:06:12 CET" duration-ms="972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySidebarNavigationMenu()[pri:0, instance:WikipediaTest02@4a22f9e2]" started-at="2026-03-14T17:06:12 CET" name="verifySidebarNavigationMenu" finished-at="2026-03-14T17:06:13 CET" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySidebarNavigationMenu -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest02@4a22f9e2]" started-at="2026-03-14T17:06:13 CET" name="methodTearDown" finished-at="2026-03-14T17:06:13 CET" duration-ms="87" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySidebarNavigationMenu status=SUCCESS method=WikipediaTest02.verifySidebarNavigationMenu()[pri:0, instance:WikipediaTest02@4a22f9e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+      </class> <!-- WikipediaTest02 -->
+      <class name="WikipediaTest03">
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest03@3c419631]" started-at="2026-03-14T17:06:13 CET" name="methodSetUp" finished-at="2026-03-14T17:06:13 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest03.verifyAllContentSections()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest03@3c419631]" started-at="2026-03-14T17:06:13 CET" name="setUp" finished-at="2026-03-14T17:06:14 CET" duration-ms="1029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAllContentSections()[pri:0, instance:WikipediaTest03@3c419631]" started-at="2026-03-14T17:06:14 CET" name="verifyAllContentSections" finished-at="2026-03-14T17:06:14 CET" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllContentSections -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest03@3c419631]" started-at="2026-03-14T17:06:14 CET" name="methodTearDown" finished-at="2026-03-14T17:06:14 CET" duration-ms="69" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAllContentSections status=SUCCESS method=WikipediaTest03.verifyAllContentSections()[pri:0, instance:WikipediaTest03@3c419631] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest03@3c419631]" started-at="2026-03-14T17:06:14 CET" name="methodSetUp" finished-at="2026-03-14T17:06:14 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest03.verifyArticlePageStructure()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest03@3c419631]" started-at="2026-03-14T17:06:14 CET" name="setUp" finished-at="2026-03-14T17:06:15 CET" duration-ms="1017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyArticlePageStructure()[pri:0, instance:WikipediaTest03@3c419631]" started-at="2026-03-14T17:06:15 CET" name="verifyArticlePageStructure" finished-at="2026-03-14T17:06:15 CET" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyArticlePageStructure -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest03@3c419631]" started-at="2026-03-14T17:06:15 CET" name="methodTearDown" finished-at="2026-03-14T17:06:15 CET" duration-ms="84" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyArticlePageStructure status=SUCCESS method=WikipediaTest03.verifyArticlePageStructure()[pri:0, instance:WikipediaTest03@3c419631] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest03@3c419631]" started-at="2026-03-14T17:06:15 CET" name="methodSetUp" finished-at="2026-03-14T17:06:15 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest03.verifyFooterLinksExist()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest03@3c419631]" started-at="2026-03-14T17:06:15 CET" name="setUp" finished-at="2026-03-14T17:06:16 CET" duration-ms="1073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyFooterLinksExist()[pri:0, instance:WikipediaTest03@3c419631]" started-at="2026-03-14T17:06:16 CET" name="verifyFooterLinksExist" finished-at="2026-03-14T17:06:17 CET" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterLinksExist -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest03@3c419631]" started-at="2026-03-14T17:06:17 CET" name="methodTearDown" finished-at="2026-03-14T17:06:17 CET" duration-ms="70" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFooterLinksExist status=SUCCESS method=WikipediaTest03.verifyFooterLinksExist()[pri:0, instance:WikipediaTest03@3c419631] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest03@3c419631]" started-at="2026-03-14T17:06:17 CET" name="methodSetUp" finished-at="2026-03-14T17:06:17 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest03.verifyPageHeaderTabs()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest03@3c419631]" started-at="2026-03-14T17:06:17 CET" name="setUp" finished-at="2026-03-14T17:06:18 CET" duration-ms="898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyPageHeaderTabs()[pri:0, instance:WikipediaTest03@3c419631]" started-at="2026-03-14T17:06:18 CET" name="verifyPageHeaderTabs" finished-at="2026-03-14T17:06:18 CET" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageHeaderTabs -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest03@3c419631]" started-at="2026-03-14T17:06:18 CET" name="methodTearDown" finished-at="2026-03-14T17:06:18 CET" duration-ms="85" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPageHeaderTabs status=SUCCESS method=WikipediaTest03.verifyPageHeaderTabs()[pri:0, instance:WikipediaTest03@3c419631] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest03@3c419631]" started-at="2026-03-14T17:06:18 CET" name="methodSetUp" finished-at="2026-03-14T17:06:18 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest03.verifySidebarNavigationMenu()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest03@3c419631]" started-at="2026-03-14T17:06:18 CET" name="setUp" finished-at="2026-03-14T17:06:19 CET" duration-ms="965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySidebarNavigationMenu()[pri:0, instance:WikipediaTest03@3c419631]" started-at="2026-03-14T17:06:19 CET" name="verifySidebarNavigationMenu" finished-at="2026-03-14T17:06:19 CET" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySidebarNavigationMenu -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest03@3c419631]" started-at="2026-03-14T17:06:19 CET" name="methodTearDown" finished-at="2026-03-14T17:06:19 CET" duration-ms="70" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySidebarNavigationMenu status=SUCCESS method=WikipediaTest03.verifySidebarNavigationMenu()[pri:0, instance:WikipediaTest03@3c419631] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest03@3c419631]" started-at="2026-03-14T17:06:19 CET" name="methodSetUp" finished-at="2026-03-14T17:06:19 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest03.verifyTechnicalSpecificationsInInfobox()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest03@3c419631]" started-at="2026-03-14T17:06:19 CET" name="setUp" finished-at="2026-03-14T17:06:20 CET" duration-ms="893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTechnicalSpecificationsInInfobox()[pri:0, instance:WikipediaTest03@3c419631]" started-at="2026-03-14T17:06:20 CET" name="verifyTechnicalSpecificationsInInfobox" finished-at="2026-03-14T17:06:20 CET" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTechnicalSpecificationsInInfobox -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest03@3c419631]" started-at="2026-03-14T17:06:20 CET" name="methodTearDown" finished-at="2026-03-14T17:06:20 CET" duration-ms="70" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTechnicalSpecificationsInInfobox status=SUCCESS method=WikipediaTest03.verifyTechnicalSpecificationsInInfobox()[pri:0, instance:WikipediaTest03@3c419631] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+      </class> <!-- WikipediaTest03 -->
+      <class name="WikipediaTest04">
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest04@418e7838]" started-at="2026-03-14T17:06:20 CET" name="methodSetUp" finished-at="2026-03-14T17:06:20 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest04.verifyDesignSection()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest04@418e7838]" started-at="2026-03-14T17:06:20 CET" name="setUp" finished-at="2026-03-14T17:06:21 CET" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDesignSection()[pri:0, instance:WikipediaTest04@418e7838]" started-at="2026-03-14T17:06:21 CET" name="verifyDesignSection" finished-at="2026-03-14T17:06:21 CET" duration-ms="676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDesignSection -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest04@418e7838]" started-at="2026-03-14T17:06:21 CET" name="methodTearDown" finished-at="2026-03-14T17:06:21 CET" duration-ms="69" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDesignSection status=SUCCESS method=WikipediaTest04.verifyDesignSection()[pri:0, instance:WikipediaTest04@418e7838] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest04@418e7838]" started-at="2026-03-14T17:06:21 CET" name="methodSetUp" finished-at="2026-03-14T17:06:21 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest04.verifyExternalLinks()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest04@418e7838]" started-at="2026-03-14T17:06:21 CET" name="setUp" finished-at="2026-03-14T17:06:22 CET" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyExternalLinks()[pri:0, instance:WikipediaTest04@418e7838]" started-at="2026-03-14T17:06:22 CET" name="verifyExternalLinks" finished-at="2026-03-14T17:06:22 CET" duration-ms="703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyExternalLinks -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest04@418e7838]" started-at="2026-03-14T17:06:22 CET" name="methodTearDown" finished-at="2026-03-14T17:06:23 CET" duration-ms="73" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyExternalLinks status=SUCCESS method=WikipediaTest04.verifyExternalLinks()[pri:0, instance:WikipediaTest04@418e7838] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest04@418e7838]" started-at="2026-03-14T17:06:23 CET" name="methodSetUp" finished-at="2026-03-14T17:06:23 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest04.verifyHistorySection()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest04@418e7838]" started-at="2026-03-14T17:06:23 CET" name="setUp" finished-at="2026-03-14T17:06:23 CET" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHistorySection()[pri:0, instance:WikipediaTest04@418e7838]" started-at="2026-03-14T17:06:23 CET" name="verifyHistorySection" finished-at="2026-03-14T17:06:23 CET" duration-ms="665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHistorySection -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest04@418e7838]" started-at="2026-03-14T17:06:23 CET" name="methodTearDown" finished-at="2026-03-14T17:06:24 CET" duration-ms="69" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHistorySection status=SUCCESS method=WikipediaTest04.verifyHistorySection()[pri:0, instance:WikipediaTest04@418e7838] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest04@418e7838]" started-at="2026-03-14T17:06:24 CET" name="methodSetUp" finished-at="2026-03-14T17:06:24 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest04.verifyInfoboxWebsiteLink()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest04@418e7838]" started-at="2026-03-14T17:06:24 CET" name="setUp" finished-at="2026-03-14T17:06:24 CET" duration-ms="340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyInfoboxWebsiteLink()[pri:0, instance:WikipediaTest04@418e7838]" started-at="2026-03-14T17:06:24 CET" name="verifyInfoboxWebsiteLink" finished-at="2026-03-14T17:06:25 CET" duration-ms="681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInfoboxWebsiteLink -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest04@418e7838]" started-at="2026-03-14T17:06:25 CET" name="methodTearDown" finished-at="2026-03-14T17:06:25 CET" duration-ms="77" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyInfoboxWebsiteLink status=SUCCESS method=WikipediaTest04.verifyInfoboxWebsiteLink()[pri:0, instance:WikipediaTest04@418e7838] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+      </class> <!-- WikipediaTest04 -->
+      <class name="WikipediaTest05">
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest05@61230f6a]" started-at="2026-03-14T17:06:25 CET" name="methodSetUp" finished-at="2026-03-14T17:06:25 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest05.verifyFeaturesSection()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest05@61230f6a]" started-at="2026-03-14T17:06:25 CET" name="setUp" finished-at="2026-03-14T17:06:25 CET" duration-ms="430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyFeaturesSection()[pri:0, instance:WikipediaTest05@61230f6a]" started-at="2026-03-14T17:06:25 CET" name="verifyFeaturesSection" finished-at="2026-03-14T17:06:26 CET" duration-ms="784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFeaturesSection -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest05@61230f6a]" started-at="2026-03-14T17:06:26 CET" name="methodTearDown" finished-at="2026-03-14T17:06:26 CET" duration-ms="69" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFeaturesSection status=SUCCESS method=WikipediaTest05.verifyFeaturesSection()[pri:0, instance:WikipediaTest05@61230f6a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest05@61230f6a]" started-at="2026-03-14T17:06:26 CET" name="methodSetUp" finished-at="2026-03-14T17:06:26 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest05.verifySoftwareEmulationsSection()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest05@61230f6a]" started-at="2026-03-14T17:06:26 CET" name="setUp" finished-at="2026-03-14T17:06:26 CET" duration-ms="428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySoftwareEmulationsSection()[pri:0, instance:WikipediaTest05@61230f6a]" started-at="2026-03-14T17:06:26 CET" name="verifySoftwareEmulationsSection" finished-at="2026-03-14T17:06:27 CET" duration-ms="887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySoftwareEmulationsSection -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest05@61230f6a]" started-at="2026-03-14T17:06:27 CET" name="methodTearDown" finished-at="2026-03-14T17:06:27 CET" duration-ms="84" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySoftwareEmulationsSection status=SUCCESS method=WikipediaTest05.verifySoftwareEmulationsSection()[pri:0, instance:WikipediaTest05@61230f6a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest05@61230f6a]" started-at="2026-03-14T17:06:27 CET" name="methodSetUp" finished-at="2026-03-14T17:06:27 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest05.verifySuccessorsSection()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest05@61230f6a]" started-at="2026-03-14T17:06:27 CET" name="setUp" finished-at="2026-03-14T17:06:28 CET" duration-ms="345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySuccessorsSection()[pri:0, instance:WikipediaTest05@61230f6a]" started-at="2026-03-14T17:06:28 CET" name="verifySuccessorsSection" finished-at="2026-03-14T17:06:28 CET" duration-ms="757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessorsSection -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest05@61230f6a]" started-at="2026-03-14T17:06:28 CET" name="methodTearDown" finished-at="2026-03-14T17:06:29 CET" duration-ms="82" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySuccessorsSection status=SUCCESS method=WikipediaTest05.verifySuccessorsSection()[pri:0, instance:WikipediaTest05@61230f6a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest05@61230f6a]" started-at="2026-03-14T17:06:29 CET" name="methodSetUp" finished-at="2026-03-14T17:06:29 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest05.verifyTechnicalSpecifications()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest05@61230f6a]" started-at="2026-03-14T17:06:29 CET" name="setUp" finished-at="2026-03-14T17:06:29 CET" duration-ms="430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTechnicalSpecifications()[pri:0, instance:WikipediaTest05@61230f6a]" started-at="2026-03-14T17:06:29 CET" name="verifyTechnicalSpecifications" finished-at="2026-03-14T17:06:30 CET" duration-ms="920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTechnicalSpecifications -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest05@61230f6a]" started-at="2026-03-14T17:06:30 CET" name="methodTearDown" finished-at="2026-03-14T17:06:30 CET" duration-ms="87" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTechnicalSpecifications status=SUCCESS method=WikipediaTest05.verifyTechnicalSpecifications()[pri:0, instance:WikipediaTest05@61230f6a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+      </class> <!-- WikipediaTest05 -->
+      <class name="WikipediaTest06">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest06@3c130745]" started-at="2026-03-14T17:06:30 CET" name="setUp" finished-at="2026-03-14T17:06:31 CET" duration-ms="1062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest06@3c130745]" started-at="2026-03-14T17:06:30 CET" name="methodSetUp" finished-at="2026-03-14T17:06:30 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest06.verifyCompatibilityTable()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method signature="verifyCompatibilityTable()[pri:0, instance:WikipediaTest06@3c130745]" started-at="2026-03-14T17:06:31 CET" name="verifyCompatibilityTable" finished-at="2026-03-14T17:06:32 CET" duration-ms="581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCompatibilityTable -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest06@3c130745]" started-at="2026-03-14T17:06:32 CET" name="methodTearDown" finished-at="2026-03-14T17:06:32 CET" duration-ms="69" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCompatibilityTable status=SUCCESS method=WikipediaTest06.verifyCompatibilityTable()[pri:0, instance:WikipediaTest06@3c130745] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest06@3c130745]" started-at="2026-03-14T17:06:32 CET" name="methodSetUp" finished-at="2026-03-14T17:06:32 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest06.verifyConnectorsSubsections()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest06@3c130745]" started-at="2026-03-14T17:06:32 CET" name="setUp" finished-at="2026-03-14T17:06:33 CET" duration-ms="1009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyConnectorsSubsections()[pri:0, instance:WikipediaTest06@3c130745]" started-at="2026-03-14T17:06:33 CET" name="verifyConnectorsSubsections" finished-at="2026-03-14T17:06:33 CET" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyConnectorsSubsections -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest06@3c130745]" started-at="2026-03-14T17:06:33 CET" name="methodTearDown" finished-at="2026-03-14T17:06:33 CET" duration-ms="85" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyConnectorsSubsections status=SUCCESS method=WikipediaTest06.verifyConnectorsSubsections()[pri:0, instance:WikipediaTest06@3c130745] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest06@3c130745]" started-at="2026-03-14T17:06:33 CET" name="setUp" finished-at="2026-03-14T17:06:40 CET" duration-ms="7498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest06@3c130745]" started-at="2026-03-14T17:06:33 CET" name="methodSetUp" finished-at="2026-03-14T17:06:33 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest06.verifyTypesSubSubsections()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method signature="verifyTypesSubSubsections()[pri:0, instance:WikipediaTest06@3c130745]" started-at="2026-03-14T17:06:40 CET" name="verifyTypesSubSubsections" finished-at="2026-03-14T17:06:41 CET" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTypesSubSubsections -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest06@3c130745]" started-at="2026-03-14T17:06:41 CET" name="methodTearDown" finished-at="2026-03-14T17:06:41 CET" duration-ms="83" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTypesSubSubsections status=SUCCESS method=WikipediaTest06.verifyTypesSubSubsections()[pri:0, instance:WikipediaTest06@3c130745] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WikipediaTest06@3c130745]" started-at="2026-03-14T17:06:41 CET" name="setUp" finished-at="2026-03-14T17:06:42 CET" duration-ms="1231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="methodSetUp(java.lang.reflect.Method)[pri:0, instance:WikipediaTest06@3c130745]" started-at="2026-03-14T17:06:41 CET" name="methodSetUp" finished-at="2026-03-14T17:06:41 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WikipediaTest06.verifyUSBConnectorsSection()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method signature="verifyUSBConnectorsSection()[pri:0, instance:WikipediaTest06@3c130745]" started-at="2026-03-14T17:06:42 CET" name="verifyUSBConnectorsSection" finished-at="2026-03-14T17:06:42 CET" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUSBConnectorsSection -->
+        <test-method is-config="true" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:WikipediaTest06@3c130745]" started-at="2026-03-14T17:06:42 CET" name="methodTearDown" finished-at="2026-03-14T17:06:42 CET" duration-ms="69" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUSBConnectorsSection status=SUCCESS method=WikipediaTest06.verifyUSBConnectorsSection()[pri:0, instance:WikipediaTest06@3c130745] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+      </class> <!-- WikipediaTest06 -->
+    </test> <!-- WikipediaTest -->
+  </suite> <!-- Suite1 -->
+</testng-results>
