@@ -1,64 +1,79 @@
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
-import java.util.Arrays;
-import java.util.List;
-import java.util.concurrent.TimeUnit;
+import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.testng.annotations.*;
 
-public class WikipediaTest05 
-{
+public class WikipediaTest05 extends BaseTest {
 
-    private WebDriver driver;
+    private static final String URL = "https://en.wikipedia.org/wiki/Roland_Juno-60";
 
     @BeforeMethod
-    public void setUp() 
-    {
-        System.setProperty("webdriver.gecko.driver", "/home/agropecuario/geckodriver");
-        driver = new FirefoxDriver();
-        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
-        driver.manage().window().maximize();
+    public void setUp() {
+        initDriver();
     }
 
     @Test
-    public void testHighlightElementsOnGorbeaPage() throws InterruptedException 
-    {
-        driver.get("https://en.wikipedia.org/wiki/Gorbea");
-
-        List<String> elementos = Arrays.asList("Basque Country", " Álava");
-        List<String> colores = Arrays.asList("yellow", "cyan");
-
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-
-        for (int i = 0; i < elementos.size(); i++) {
-            String elemento = elementos.get(i);
-            String color = colores.get(i);
-
-            WebElement elementoEncontrado = driver.findElement(By.xpath("//a[contains(text(), '" + elemento + "')]"));
-
-            js.executeScript("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", elementoEncontrado);
-            Thread.sleep(1000);
-
-            js.executeScript("arguments[0].style.backgroundColor = arguments[1]; arguments[0].style.border = '3px solid black';", elementoEncontrado, color);
-
-            Thread.sleep(1000);
-        }
-
-        String title = driver.getTitle();
-        Assert.assertTrue(title.contains("Gorbea"));
-
-        Thread.sleep(1000);
+    public void verifyFeaturesSection() {
+        driver.get(URL);
+        WebElement anchor = wait.until(ExpectedConditions.presenceOfElementLocated(
+                By.id("Sounds_and_features")));
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true)", anchor);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.xpath("//h2[contains(.,'Sounds and features')] | //h3[contains(.,'Sounds and features')]")));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.xpath("//p[contains(.,'single-oscillator analog synthesizers')]")));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.xpath("//p[contains(.,'chorus effect')]")));
+        System.out.println("Sounds and features section verified correctly.");
+        System.out.println(" - Single-oscillator analog synthesizers mentioned");
+        System.out.println(" - Chorus effect mentioned");
     }
 
-    @AfterMethod
-    public void tearDown() {
-        if (driver != null) {
-            driver.quit();
-        }
+    @Test
+    public void verifyTechnicalSpecifications() {
+        driver.get(URL);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".infobox")));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.xpath("//table[contains(@class,'infobox')]//th[contains(.,'Technical specifications')]")));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.xpath("//table[contains(@class,'infobox')]//td[contains(.,'6 voices')]")));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.xpath("//table[contains(@class,'infobox')]//td[contains(.,'1 DCO per voice')]")));
+        System.out.println("Technical specifications verified correctly.");
+        System.out.println(" - Polyphony: 6 voices");
+        System.out.println(" - Oscillator: 1 DCO per voice");
+    }
+
+    @Test
+    public void verifySuccessorsSection() {
+        driver.get(URL);
+        WebElement anchor = wait.until(ExpectedConditions.presenceOfElementLocated(
+                By.id("Successors")));
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true)", anchor);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.xpath("//h2[contains(.,'Successors')] | //h3[contains(.,'Successors')]")));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.xpath("//p[contains(.,'Roland followed up the Juno-60 with the Roland Juno-106 in 1984')]")));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.xpath("//p[contains(.,'Roland released the Juno-X in 2022')]")));
+        System.out.println("Successors section verified correctly.");
+        System.out.println(" - Juno-106 mentioned");
+        System.out.println(" - Juno-X mentioned");
+    }
+
+    @Test
+    public void verifySoftwareEmulationsSection() {
+        driver.get(URL);
+        WebElement anchor = wait.until(ExpectedConditions.presenceOfElementLocated(
+                By.id("Software_emulations")));
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true)", anchor);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.xpath("//h2[contains(.,'Software emulations')] | //h3[contains(.,'Software emulations')]")));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.xpath("//li[contains(.,'TAL U-NO-62 by Togu Audio Line')]")));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.xpath("//li[contains(.,'Arturia Chorus JUN-6 (2020)')]")));
+        System.out.println("Software emulations section verified correctly.");
+        System.out.println(" - TAL U-NO-62 mentioned");
+        System.out.println(" - Arturia Chorus JUN-6 mentioned");
     }
 }

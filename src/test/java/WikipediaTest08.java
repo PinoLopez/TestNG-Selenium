@@ -1,61 +1,115 @@
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
-import java.util.Arrays;
+import org.testng.annotations.*;
+
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.nio.file.StandardCopyOption;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
-public class WikipediaTest08 {
-
-    private WebDriver driver;
+public class WikipediaTest08 extends BaseTest {
 
     @BeforeMethod
     public void setUp() {
-        System.setProperty("webdriver.gecko.driver", "/home/agropecuario/geckodriver");
-        driver = new FirefoxDriver();
-        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
-        driver.manage().window().maximize();
+        initDriver();
+        driver.get("https://en.wikipedia.org/wiki/2025_MotoGP_World_Championship");
     }
 
     @Test
-    public void testHighlightElementsOnGaliciaPage() throws InterruptedException {
-        driver.get("https://en.wikipedia.org/wiki/Galicia_(Spain)");
-
-        List<String> elementos = Arrays.asList("Spain", "Santiago de Compostela");
-        List<String> colores = Arrays.asList("yellow", "cyan");
-
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-
-        for (int i = 0; i < elementos.size(); i++) {
-            String elemento = elementos.get(i);
-            String color = colores.get(i);
-
-            WebElement elementoEncontrado = driver.findElement(By.xpath("//a[contains(text(), '" + elemento + "')]"));
-
-            js.executeScript("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", elementoEncontrado);
-            Thread.sleep(1000);
-
-            js.executeScript("arguments[0].style.backgroundColor = arguments[1]; arguments[0].style.border = '3px solid black';", elementoEncontrado, color);
-
-            Thread.sleep(2000);
-        }
-
-        String title = driver.getTitle();
-        Assert.assertTrue(title.contains("Galicia (Spain)"));
-
-        Thread.sleep(1000);
+    public void verifyPageTitle() {
+        WebElement heading = wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.id("firstHeading")));
+        Assert.assertTrue(heading.getText().contains("2025 MotoGP World Championship"));
+        System.out.println("Page title verified successfully");
     }
 
-    @AfterMethod
-    public void tearDown() {
-        if (driver != null) {
-            driver.quit();
+    @Test
+    public void verifyTableOfContents() {
+        WebElement toc = wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.cssSelector("#toc, .toc, [role='navigation']")));
+        Assert.assertNotNull(toc);
+        System.out.println("Table of contents verified successfully");
+    }
+
+    @Test
+    public void verifyRidersSection() {
+        WebElement ridersSection = wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.cssSelector("#Teams_and_riders, #Riders")));
+        Assert.assertNotNull(ridersSection);
+        System.out.println("Riders section verified successfully");
+    }
+
+    @Test
+    public void verifyMarcMarquezInformation() {
+        WebElement content = wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.id("mw-content-text")));
+        Assert.assertTrue(content.getText().contains("Marc Márquez"));
+        System.out.println("Marc Márquez information verified successfully");
+    }
+
+    @Test
+    public void verifyDefendingChampionJorgeMartin() {
+        WebElement content = wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.id("mw-content-text")));
+        Assert.assertTrue(content.getText().contains("Jorge Martín"));
+        System.out.println("Jorge Martín information verified successfully");
+    }
+
+    @Test
+    public void verifyCalendarSection() {
+        WebElement calendarSection = wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.id("Calendar")));
+        Assert.assertNotNull(calendarSection);
+        System.out.println("Calendar section verified successfully");
+    }
+
+    @Test
+    public void verifyResultsTables() {
+        List<WebElement> tables = wait.until(driver -> {
+            List<WebElement> found = driver.findElements(By.cssSelector("table.wikitable"));
+            return found.isEmpty() ? null : found;
+        });
+        Assert.assertFalse(tables.isEmpty());
+        System.out.println("Found " + tables.size() + " results tables");
+    }
+
+    @Test
+    public void verifyReferenceLinks() {
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("References")));
+        List<WebElement> refLinks = driver.findElements(
+                By.cssSelector(".reflist a, .references a"));
+        Assert.assertFalse(refLinks.isEmpty());
+        System.out.println("Found " + refLinks.size() + " reference links");
+    }
+
+    @Test
+    public void verifyMainTeams() {
+        WebElement content = wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.id("mw-content-text")));
+        String text = content.getText();
+        for (String team : new String[]{"Ducati", "Aprilia", "Honda", "Yamaha", "KTM"}) {
+            Assert.assertTrue(text.contains(team), "Page should mention team: " + team);
         }
+        System.out.println("Main teams information verified successfully");
+    }
+
+    @Test
+    public void verifySeasonChanges() {
+        WebElement content = wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.id("mw-content-text")));
+        Assert.assertTrue(content.getText().contains("season"));
+        System.out.println("Season changes section verified successfully");
+    }
+
+    @Test
+    public void takeScreenshot() throws IOException {
+        File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+        Files.copy(src.toPath(),
+                Paths.get("motogp-2025-wikipedia.png"),
+                StandardCopyOption.REPLACE_EXISTING);
+        System.out.println("Screenshot saved as motogp-2025-wikipedia.png");
     }
 }

@@ -1,64 +1,58 @@
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
-import java.util.Arrays;
+import org.testng.annotations.*;
+
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
-public class WikipediaTest04 
-{
+public class WikipediaTest04 extends BaseTest {
 
-    private WebDriver driver;
+    private static final String URL = "https://en.wikipedia.org/wiki/Synergy_(software)";
 
     @BeforeMethod
     public void setUp() {
-        System.setProperty("webdriver.gecko.driver", "/home/agropecuario/geckodriver");
-        driver = new FirefoxDriver();
-        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
-        driver.manage().window().maximize();
+        initDriver();
     }
 
     @Test
-    public void testHighlightElementsOnPyreneesPage() throws InterruptedException 
-    {
-        driver.get("https://en.wikipedia.org/wiki/Pyrenees");
-
-        List<String> elementos = Arrays.asList("France", "Spain");
-        List<String> colores = Arrays.asList("yellow", "cyan");
-
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-
-        for (int i = 0; i < elementos.size(); i++) 
-        {
-            String elemento = elementos.get(i);
-            String color = colores.get(i);
-
-            WebElement elementoEncontrado = driver.findElement(By.xpath("//a[contains(text(), '" + elemento + "')]"));
-
-            js.executeScript("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", elementoEncontrado);
-            Thread.sleep(1000);
-
-            js.executeScript("arguments[0].style.backgroundColor = arguments[1]; arguments[0].style.border = '3px solid black';", elementoEncontrado, color);
-
-            Thread.sleep(2000);
-        }
-
-        String title = driver.getTitle();
-        Assert.assertTrue(title.contains("Pyrenees"));
-
-        Thread.sleep(1000);
+    public void verifyInfoboxWebsiteLink() {
+        driver.get(URL);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.xpath("//h1[contains(.,'Synergy')]")));
+        WebElement websiteLink = wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.xpath("//a[contains(@href,'symless.com/synergy')]")));
+        String href = websiteLink.getAttribute("href");
+        Assert.assertTrue(href.contains("symless.com/synergy"),
+                "Website link href should contain symless.com/synergy. Actual: " + href);
+        System.out.println("Infobox website link verified correctly.");
     }
 
-    @AfterMethod
-    public void tearDown() {
-        if (driver != null) {
-            driver.quit();
-        }
+    @Test
+    public void verifyDesignSection() {
+        driver.get(URL);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.xpath("//h2[contains(.,'Design')] | //h3[contains(.,'Design')]")));
+        System.out.println("Design section verified correctly.");
+    }
+
+    @Test
+    public void verifyHistorySection() {
+        driver.get(URL);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.xpath("//h2[contains(.,'History')] | //h3[contains(.,'History')]")));
+        System.out.println("History section verified correctly.");
+    }
+
+    @Test
+    public void verifyExternalLinks() {
+        driver.get(URL);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.xpath("//h2[contains(.,'References')] | //h2[contains(.,'External links')]")));
+        List<WebElement> externalLinks = driver.findElements(
+                By.cssSelector(".references a.external, .reflist a.external"));
+        Assert.assertFalse(externalLinks.isEmpty(),
+                "Should have at least one external reference link");
+        Assert.assertNotNull(externalLinks.get(0).getAttribute("href"));
+        System.out.println("External links verified correctly.");
     }
 }
