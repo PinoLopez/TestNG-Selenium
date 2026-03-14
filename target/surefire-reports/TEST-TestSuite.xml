@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="188.156" tests="70" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="171.764" tests="70" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/agropecuario/Documents/Selenium/TestNG-Selenium/target/surefire/surefirebooter-20260314152617006_3.jar /home/agropecuario/Documents/Selenium/TestNG-Selenium/target/surefire 2026-03-14T15-26-16_911-jvmRun1 surefire-20260314152617006_1tmp surefire_0-20260314152617006_2tmp"/>
+    <property name="sun.java.command" value="/home/agropecuario/Documents/Selenium/TestNG-Selenium/target/surefire/surefirebooter-20260314153439355_3.jar /home/agropecuario/Documents/Selenium/TestNG-Selenium/target/surefire 2026-03-14T15-34-39_211-jvmRun1 surefire-20260314153439355_1tmp surefire_0-20260314153439355_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/agropecuario/Documents/Selenium/TestNG-Selenium/target/test-classes:/home/agropecuario/Documents/Selenium/TestNG-Selenium/target/classes:/home/agropecuario/.m2/repository/org/seleniumhq/selenium/selenium-java/4.16.0/selenium-java-4.16.0.jar:/home/agropecuario/.m2/repository/org/seleniumhq/selenium/selenium-api/4.16.0/selenium-api-4.16.0.jar:/home/agropecuario/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.16.0/selenium-chrome-driver-4.16.0.jar:/home/agropecuario/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/home/agropecuario/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.16.0/selenium-chromium-driver-4.16.0.jar:/home/agropecuario/.m2/repository/org/seleniumhq/selenium/selenium-json/4.16.0/selenium-json-4.16.0.jar:/home/agropecuario/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.16.0/selenium-manager-4.16.0.jar:/home/agropecuario/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v118/4.16.0/selenium-devtools-v118-4.16.0.jar:/home/agropecuario/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v119/4.16.0/selenium-devtools-v119-4.16.0.jar:/home/agropecuario/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v120/4.16.0/selenium-devtools-v120-4.16.0.jar:/home/agropecuario/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.16.0/selenium-devtools-v85-4.16.0.jar:/home/agropecuario/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.16.0/selenium-edge-driver-4.16.0.jar:/home/agropecuario/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.16.0/selenium-firefox-driver-4.16.0.jar:/home/agropecuario/.m2/repository/org/seleniumhq/selenium/selenium-http/4.16.0/selenium-http-4.16.0.jar:/home/agropecuario/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/home/agropecuario/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.16.0/selenium-ie-driver-4.16.0.jar:/home/agropecuario/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.16.0/selenium-remote-driver-4.16.0.jar:/home/agropecuario/.m2/repository/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar:/home/agropecuario/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/agropecuario/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/agropecuario/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/agropecuario/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/home/agropecuario/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/home/agropecuario/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/home/agropecuario/.m2/repository/io/opentelemetry/opentelemetry-api/1.28.0/opentelemetry-api-1.28.0.jar:/home/agropecuario/.m2/repository/io/opentelemetry/opentelemetry-context/1.28.0/opentelemetry-context-1.28.0.jar:/home/agropecuario/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.28.0/opentelemetry-exporter-logging-1.28.0.jar:/home/agropecuario/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.28.0/opentelemetry-sdk-metrics-1.28.0.jar:/home/agropecuario/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.28.0-alpha/opentelemetry-extension-incubator-1.28.0-alpha.jar:/home/agropecuario/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.28.0/opentelemetry-sdk-logs-1.28.0.jar:/home/agropecuario/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.28.0/opentelemetry-sdk-common-1.28.0.jar:/home/agropecuario/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.28.0/opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar:/home/agropecuario/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.28.0/opentelemetry-sdk-extension-autoconfigure-1.28.0.jar:/home/agropecuario/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.28.0-alpha/opentelemetry-api-events-1.28.0-alpha.jar:/home/agropecuario/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.28.0/opentelemetry-sdk-trace-1.28.0.jar:/home/agropecuario/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.28.0/opentelemetry-sdk-1.28.0.jar:/home/agropecuario/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.28.0-alpha/opentelemetry-semconv-1.28.0-alpha.jar:/home/agropecuario/.m2/repository/net/bytebuddy/byte-buddy/1.14.5/byte-buddy-1.14.5.jar:/home/agropecuario/.m2/repository/org/seleniumhq/selenium/selenium-os/4.16.0/selenium-os-4.16.0.jar:/home/agropecuario/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/agropecuario/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.16.0/selenium-safari-driver-4.16.0.jar:/home/agropecuario/.m2/repository/org/seleniumhq/selenium/selenium-support/4.16.0/selenium-support-4.16.0.jar:/home/agropecuario/.m2/repository/org/testng/testng/7.8.0/testng-7.8.0.jar:/home/agropecuario/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/agropecuario/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/home/agropecuario/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -26,9 +26,10 @@
     <property name="basedir" value="/home/agropecuario/Documents/Selenium/TestNG-Selenium"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/home/agropecuario/Documents/Selenium/TestNG-Selenium/target/surefire/surefirebooter-20260314152617006_3.jar"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/home/agropecuario/Documents/Selenium/TestNG-Selenium/target/surefire/surefirebooter-20260314153439355_3.jar"/>
+    <property name="java.util.logging.config.file" value="/home/agropecuario/Documents/Selenium/TestNG-Selenium/target/test-classes/logging.properties"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.18+8-Ubuntu-122.04.1"/>
     <property name="user.name" value="agropecuario"/>
@@ -53,7 +54,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="verifyAllContentSections" classname="WikipediaTest01" time="0.164">
+  <testcase name="verifyAllContentSections" classname="WikipediaTest01" time="0.166">
     <system-out><![CDATA[[BeforeSuite] Chrome binary ready.
 Section verified: From today's featured article
 Section verified: Did you know
@@ -64,48 +65,25 @@ All content sections verified correctly.
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Mar 14, 2026 3:26:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:26:18 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-Mar 14, 2026 3:26:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:26:19 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="verifyAvailableLanguages" classname="WikipediaTest01" time="0.12">
+  <testcase name="verifyAvailableLanguages" classname="WikipediaTest01" time="0.117">
     <system-out><![CDATA[Language selector verified correctly.
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:26:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:26:20 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyFooterLinksExist" classname="WikipediaTest01" time="0.139">
+  <testcase name="verifyFooterLinksExist" classname="WikipediaTest01" time="0.205">
     <system-out><![CDATA[Footer link verified: Privacy policy
 Footer link verified: About Wikipedia
 Footer link verified: Disclaimers
 Footer link verified: Contact Wikipedia
 Footer links verified correctly.
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:26:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:26:21 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyMainPageStructure" classname="WikipediaTest01" time="0.082">
+  <testcase name="verifyMainPageStructure" classname="WikipediaTest01" time="0.139">
     <system-out><![CDATA[Main structure verified correctly.
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:26:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:26:23 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyPageHeaderTabs" classname="WikipediaTest01" time="0.148">
+  <testcase name="verifyPageHeaderTabs" classname="WikipediaTest01" time="0.188">
     <system-out><![CDATA[Header tab verified: Main Page
 Header tab verified: Talk
 Header tab verified: Read
@@ -113,22 +91,12 @@ Header tab verified: View source
 Header tab verified: View history
 Page header tabs verified correctly.
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:26:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:26:24 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifySearchFunctionality" classname="WikipediaTest01" time="0.617">
+  <testcase name="verifySearchFunctionality" classname="WikipediaTest01" time="0.664">
     <system-out><![CDATA[Search functionality verified correctly.
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:26:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:26:25 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifySidebarNavigationMenu" classname="WikipediaTest01" time="0.297">
+  <testcase name="verifySidebarNavigationMenu" classname="WikipediaTest01" time="0.304">
     <system-out><![CDATA[Menu link verified: Main page
 Menu link verified: Contents
 Menu link verified: Current events
@@ -137,81 +105,40 @@ Menu link verified: About Wikipedia
 Menu link verified: Contact us
 Sidebar navigation menu verified correctly.
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:26:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:26:27 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifySisterProjectsSection" classname="WikipediaTest01" time="0.144">
+  <testcase name="verifySisterProjectsSection" classname="WikipediaTest01" time="0.191">
     <system-out><![CDATA[Sister projects section verified correctly.
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:26:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:26:28 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyTodayFeaturedArticleExists" classname="WikipediaTest01" time="0.091">
+  <testcase name="verifyTodayFeaturedArticleExists" classname="WikipediaTest01" time="0.098">
     <system-out><![CDATA[Featured article section verified correctly.
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:26:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:26:29 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyWikipediaLogoLinksToMainPage" classname="WikipediaTest01" time="0.635">
+  <testcase name="verifyWikipediaLogoLinksToMainPage" classname="WikipediaTest01" time="0.617">
     <system-out><![CDATA[Logo link verified correctly.
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:26:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:26:31 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyAllContentSections" classname="WikipediaTest02" time="0.173">
+  <testcase name="verifyAllContentSections" classname="WikipediaTest02" time="0.155">
     <system-out><![CDATA[Section verified: Release
 Section verified: Design
 Section verified: Reception
 Section verified: References
 All content sections verified correctly.
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:26:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:26:32 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyArticlePageStructure" classname="WikipediaTest02" time="0.149">
+  <testcase name="verifyArticlePageStructure" classname="WikipediaTest02" time="0.147">
     <system-out><![CDATA[Article structure verified correctly.
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:26:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:26:34 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyFooterLinksExist" classname="WikipediaTest02" time="0.184">
-    <system-out><![CDATA[[initDriver] Attempt 1 failed: Could not start a new session. Response code 500. Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause. 
-Host info: host: 'agropecuario', ip: '127.0.1.1'
-Build info: version: '4.16.0', revision: '15400459dd*'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-171-generic', java.version: '17.0.18'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--headless=new, --no-sandbox, --disable-dev-shm-usage, --disable-gpu, --window-size=1920,1080, --remote-allow-origins=*], binary: /home/agropecuario/.cache/s..., extensions: []}}]}]. Retrying in 2 s...
-Footer link verified: Privacy policy
+  <testcase name="verifyFooterLinksExist" classname="WikipediaTest02" time="0.188">
+    <system-out><![CDATA[Footer link verified: Privacy policy
 Footer link verified: About Wikipedia
 Footer link verified: Disclaimers
 Footer link verified: Contact Wikipedia
 Footer links verified correctly.
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:26:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:26:41 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyModelsSubsections" classname="WikipediaTest02" time="0.27">
+  <testcase name="verifyModelsSubsections" classname="WikipediaTest02" time="0.22">
     <system-out><![CDATA[Model subsection verified: T-8 Beat Machine
 Model subsection verified: J-6 Chord Synthesizer
 Model subsection verified: E-4 Voice Tweaker
@@ -219,13 +146,8 @@ Model subsection verified: S-1 Tweak Synth
 Model subsection verified: P-6 Creative Sampler
 Models subsections verified correctly.
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:26:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:26:43 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyPageHeaderTabs" classname="WikipediaTest02" time="0.208">
+  <testcase name="verifyPageHeaderTabs" classname="WikipediaTest02" time="0.187">
     <system-out><![CDATA[Header tab verified: Article
 Header tab verified: Talk
 Header tab verified: Read
@@ -233,13 +155,8 @@ Header tab verified: Edit
 Header tab verified: View history
 Page header tabs verified correctly.
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:26:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:26:44 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifySidebarNavigationMenu" classname="WikipediaTest02" time="0.353">
+  <testcase name="verifySidebarNavigationMenu" classname="WikipediaTest02" time="0.31">
     <system-out><![CDATA[Menu link verified: Main page
 Menu link verified: Contents
 Menu link verified: Current events
@@ -248,48 +165,28 @@ Menu link verified: About Wikipedia
 Menu link verified: Contact us
 Sidebar navigation menu verified correctly.
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:26:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:26:45 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyAllContentSections" classname="WikipediaTest03" time="0.169">
+  <testcase name="verifyAllContentSections" classname="WikipediaTest03" time="0.17">
     <system-out><![CDATA[Section verified: Design and features
 Section verified: Legacy
 Section verified: Successors
 Section verified: References
 All content sections verified correctly.
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:26:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:26:47 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyArticlePageStructure" classname="WikipediaTest03" time="0.161">
+  <testcase name="verifyArticlePageStructure" classname="WikipediaTest03" time="0.172">
     <system-out><![CDATA[Article structure verified correctly.
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:26:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:26:48 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyFooterLinksExist" classname="WikipediaTest03" time="0.21">
+  <testcase name="verifyFooterLinksExist" classname="WikipediaTest03" time="0.191">
     <system-out><![CDATA[Footer link verified: Privacy policy
 Footer link verified: About Wikipedia
 Footer link verified: Disclaimers
 Footer link verified: Contact Wikipedia
 Footer links verified correctly.
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:26:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:26:50 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyPageHeaderTabs" classname="WikipediaTest03" time="0.222">
+  <testcase name="verifyPageHeaderTabs" classname="WikipediaTest03" time="0.209">
     <system-out><![CDATA[Header tab verified: Article
 Header tab verified: Talk
 Header tab verified: Read
@@ -297,13 +194,8 @@ Header tab verified: Edit
 Header tab verified: View history
 Page header tabs verified correctly.
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:26:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:26:51 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifySidebarNavigationMenu" classname="WikipediaTest03" time="0.325">
+  <testcase name="verifySidebarNavigationMenu" classname="WikipediaTest03" time="0.319">
     <system-out><![CDATA[Menu link verified: Main page
 Menu link verified: Contents
 Menu link verified: Current events
@@ -312,197 +204,101 @@ Menu link verified: About Wikipedia
 Menu link verified: Contact us
 Sidebar navigation menu verified correctly.
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:26:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:26:52 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyTechnicalSpecificationsInInfobox" classname="WikipediaTest03" time="0.169">
+  <testcase name="verifyTechnicalSpecificationsInInfobox" classname="WikipediaTest03" time="0.153">
     <system-out><![CDATA[All technical specifications verified correctly.
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:26:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:26:54 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyDesignSection" classname="WikipediaTest04" time="0.767">
+  <testcase name="verifyDesignSection" classname="WikipediaTest04" time="0.628">
     <system-out><![CDATA[Design section verified correctly.
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:26:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:26:55 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyExternalLinks" classname="WikipediaTest04" time="0.847">
+  <testcase name="verifyExternalLinks" classname="WikipediaTest04" time="0.695">
     <system-out><![CDATA[External links verified correctly.
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:26:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:26:57 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyHistorySection" classname="WikipediaTest04" time="0.811">
+  <testcase name="verifyHistorySection" classname="WikipediaTest04" time="0.72">
     <system-out><![CDATA[History section verified correctly.
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:26:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:26:58 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyInfoboxWebsiteLink" classname="WikipediaTest04" time="0.836">
+  <testcase name="verifyInfoboxWebsiteLink" classname="WikipediaTest04" time="0.716">
     <system-out><![CDATA[Infobox website link verified correctly.
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:26:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:26:59 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyFeaturesSection" classname="WikipediaTest05" time="0.92">
+  <testcase name="verifyFeaturesSection" classname="WikipediaTest05" time="0.859">
     <system-out><![CDATA[Sounds and features section verified correctly.
  - Single-oscillator analog synthesizers mentioned
  - Chorus effect mentioned
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:27:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:27:00 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifySoftwareEmulationsSection" classname="WikipediaTest05" time="0.864">
+  <testcase name="verifySoftwareEmulationsSection" classname="WikipediaTest05" time="0.874">
     <system-out><![CDATA[Software emulations section verified correctly.
  - TAL U-NO-62 mentioned
  - Arturia Chorus JUN-6 mentioned
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:27:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:27:02 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifySuccessorsSection" classname="WikipediaTest05" time="0.801">
+  <testcase name="verifySuccessorsSection" classname="WikipediaTest05" time="0.898">
     <system-out><![CDATA[Successors section verified correctly.
  - Juno-106 mentioned
  - Juno-X mentioned
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:27:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:27:03 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyTechnicalSpecifications" classname="WikipediaTest05" time="0.83">
+  <testcase name="verifyTechnicalSpecifications" classname="WikipediaTest05" time="0.799">
     <system-out><![CDATA[Technical specifications verified correctly.
  - Polyphony: 6 voices
  - Oscillator: 1 DCO per voice
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:27:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:27:04 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyCompatibilityTable" classname="WikipediaTest06" time="0.585">
+  <testcase name="verifyCompatibilityTable" classname="WikipediaTest06" time="0.579">
     <system-out><![CDATA[Compatibility table verified correctly.
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:27:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:27:06 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyConnectorsSubsections" classname="WikipediaTest06" time="0.228">
+  <testcase name="verifyConnectorsSubsections" classname="WikipediaTest06" time="0.218">
     <system-out><![CDATA[Subsection verified: Types
 Subsection verified: Internal connectors
 Connectors subsections verified correctly.
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:27:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:27:07 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyTypesSubSubsections" classname="WikipediaTest06" time="0.315">
+  <testcase name="verifyTypesSubSubsections" classname="WikipediaTest06" time="0.326">
     <system-out><![CDATA[Sub-subsection verified: Standard connectors
 Sub-subsection verified: Mini connectors
 Sub-subsection verified: Micro connectors
 Sub-subsection verified: USB-C
 Types sub-subsections verified correctly.
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:27:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:27:09 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyUSBConnectorsSection" classname="WikipediaTest06" time="0.272">
+  <testcase name="verifyUSBConnectorsSection" classname="WikipediaTest06" time="0.091">
     <system-out><![CDATA[Both connectors found:
  - Standard-A
  - Type-C
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:27:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:27:10 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyArticlePageStructure" classname="WikipediaTest07" time="0.252">
+  <testcase name="verifyArticlePageStructure" classname="WikipediaTest07" time="0.26">
     <system-out><![CDATA[Article structure verified correctly.
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:27:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:27:12 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyCorporateInfoboxDetails" classname="WikipediaTest07" time="0.308">
+  <testcase name="verifyCorporateInfoboxDetails" classname="WikipediaTest07" time="0.332">
     <system-out><![CDATA[Infobox detail verified: Glendale, California
 Infobox detail verified: Universal Pictures
 Infobox detail verified: Animation
 Corporate infobox details verified correctly.
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:27:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:27:13 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyFooterLinksExist" classname="WikipediaTest07" time="0.335">
-    <system-out><![CDATA[[initDriver] Attempt 1 failed: Could not start a new session. Response code 500. Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause. 
-Host info: host: 'agropecuario', ip: '127.0.1.1'
-Build info: version: '4.16.0', revision: '15400459dd*'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-171-generic', java.version: '17.0.18'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--headless=new, --no-sandbox, --disable-dev-shm-usage, --disable-gpu, --window-size=1920,1080, --remote-allow-origins=*], binary: /home/agropecuario/.cache/s..., extensions: []}}]}]. Retrying in 2 s...
-Footer link verified: Privacy policy
+  <testcase name="verifyFooterLinksExist" classname="WikipediaTest07" time="0.356">
+    <system-out><![CDATA[Footer link verified: Privacy policy
 Footer link verified: About Wikipedia
 Footer link verified: Disclaimers
 Footer link verified: Contact Wikipedia
 Footer links verified correctly.
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:27:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:27:26 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyMainContentSections" classname="WikipediaTest07" time="0.229">
+  <testcase name="verifyMainContentSections" classname="WikipediaTest07" time="0.23">
     <system-out><![CDATA[Section verified: History
 Section verified: References
 Main content sections verified correctly.
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:27:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:27:28 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyMajorFilmsMentions" classname="WikipediaTest07" time="0.468">
+  <testcase name="verifyMajorFilmsMentions" classname="WikipediaTest07" time="0.448">
     <system-out><![CDATA[Film mention verified: Shrek
 Film mention verified: Madagascar
 Film mention verified: Kung Fu Panda
@@ -510,26 +306,16 @@ Film mention verified: How to Train Your Dragon
 Film mention verified: The Boss Baby
 Major films mentions verified correctly.
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:27:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:27:29 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyPageHeaderTabs" classname="WikipediaTest07" time="0.31">
+  <testcase name="verifyPageHeaderTabs" classname="WikipediaTest07" time="0.389">
     <system-out><![CDATA[Header tab verified: Article
 Header tab verified: Talk
 Header tab verified: Read
 Header tab verified: View history
 Page header tabs verified correctly.
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:27:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:27:31 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifySidebarNavigationMenu" classname="WikipediaTest07" time="0.486">
+  <testcase name="verifySidebarNavigationMenu" classname="WikipediaTest07" time="0.468">
     <system-out><![CDATA[Menu link verified: Main page
 Menu link verified: Contents
 Menu link verified: Current events
@@ -538,112 +324,52 @@ Menu link verified: About Wikipedia
 Menu link verified: Contact us
 Sidebar navigation menu verified correctly.
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:27:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:27:32 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="takeScreenshot" classname="WikipediaTest08" time="0.353">
+  <testcase name="takeScreenshot" classname="WikipediaTest08" time="0.373">
     <system-out><![CDATA[Screenshot saved as motogp-2025-wikipedia.png
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:27:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:27:34 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyCalendarSection" classname="WikipediaTest08" time="0.154">
+  <testcase name="verifyCalendarSection" classname="WikipediaTest08" time="0.029">
     <system-out><![CDATA[Calendar section verified successfully
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:27:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:27:36 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyDefendingChampionJorgeMartin" classname="WikipediaTest08" time="1.835">
+  <testcase name="verifyDefendingChampionJorgeMartin" classname="WikipediaTest08" time="2.021">
     <system-out><![CDATA[Jorge Martín information verified successfully
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:27:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:27:37 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyMainTeams" classname="WikipediaTest08" time="1.671">
+  <testcase name="verifyMainTeams" classname="WikipediaTest08" time="2.064">
     <system-out><![CDATA[Main teams information verified successfully
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:27:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:27:41 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyMarcMarquezInformation" classname="WikipediaTest08" time="1.816">
+  <testcase name="verifyMarcMarquezInformation" classname="WikipediaTest08" time="2.739">
     <system-out><![CDATA[Marc Márquez information verified successfully
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:27:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:27:44 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyPageTitle" classname="WikipediaTest08" time="0.189">
+  <testcase name="verifyPageTitle" classname="WikipediaTest08" time="0.06">
     <system-out><![CDATA[Page title verified successfully
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:27:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:27:47 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyReferenceLinks" classname="WikipediaTest08" time="0.197">
+  <testcase name="verifyReferenceLinks" classname="WikipediaTest08" time="0.256">
     <system-out><![CDATA[Found 244 reference links
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:27:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:27:48 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyResultsTables" classname="WikipediaTest08" time="0.173">
+  <testcase name="verifyResultsTables" classname="WikipediaTest08" time="0.02">
     <system-out><![CDATA[Found 10 results tables
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:27:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:27:49 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyRidersSection" classname="WikipediaTest08" time="0.138">
+  <testcase name="verifyRidersSection" classname="WikipediaTest08" time="0.228">
     <system-out><![CDATA[Riders section verified successfully
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:27:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:27:51 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifySeasonChanges" classname="WikipediaTest08" time="1.797">
+  <testcase name="verifySeasonChanges" classname="WikipediaTest08" time="2.345">
     <system-out><![CDATA[Season changes section verified successfully
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:27:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:27:52 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyTableOfContents" classname="WikipediaTest08" time="0.166">
+  <testcase name="verifyTableOfContents" classname="WikipediaTest08" time="0.2">
     <system-out><![CDATA[Table of contents verified successfully
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:27:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:27:55 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="quickVerificationOfMultipleMediaWikiSites" classname="WikipediaTest09" time="6.742">
+  <testcase name="quickVerificationOfMultipleMediaWikiSites" classname="WikipediaTest09" time="8.165">
     <system-out><![CDATA[
 === Quick verification of all sites ===
 ✓ Wikipedia: MediaWiki detected
@@ -660,13 +386,8 @@ Sites verified: 8
 MediaWiki sites confirmed: 8
 Success rate: 100.0%
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:27:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:27:56 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyMediaWikiSiteStructureAndLinks[Wikipedia, https://en.wikipedia.org/wiki/Main_Page](1)" classname="WikipediaTest09" time="11.628">
+  <testcase name="verifyMediaWikiSiteStructureAndLinks[Wikipedia, https://en.wikipedia.org/wiki/Main_Page](1)" classname="WikipediaTest09" time="13.667">
     <system-out><![CDATA[
 === Verifying: Wikipedia ===
 Page title: Wikipedia, the free encyclopedia
@@ -684,13 +405,8 @@ Internal links with text found: 221
 ✓ Wikipedia verified successfully
 
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:28:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:28:04 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyMediaWikiSiteStructureAndLinks[Wikimedia Commons, https://commons.wikimedia.org/wiki/Main_Page](2)" classname="WikipediaTest09" time="7.286">
+  <testcase name="verifyMediaWikiSiteStructureAndLinks[Wikimedia Commons, https://commons.wikimedia.org/wiki/Main_Page](2)" classname="WikipediaTest09" time="7.64">
     <system-out><![CDATA[
 === Verifying: Wikimedia Commons ===
 Page title: Wikimedia Commons
@@ -708,13 +424,8 @@ Internal links with text found: 236
 ✓ Wikimedia Commons verified successfully
 
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:28:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:28:16 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyMediaWikiSiteStructureAndLinks[Wikidata, https://www.wikidata.org/wiki/Wikidata:Main_Page](3)" classname="WikipediaTest09" time="3.394">
+  <testcase name="verifyMediaWikiSiteStructureAndLinks[Wikidata, https://www.wikidata.org/wiki/Wikidata:Main_Page](3)" classname="WikipediaTest09" time="4.12">
     <system-out><![CDATA[
 === Verifying: Wikidata ===
 Page title: Wikidata
@@ -732,13 +443,8 @@ Internal links with text found: 78
 ✓ Wikidata verified successfully
 
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:28:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:28:23 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyMediaWikiSiteStructureAndLinks[Wikivoyage, https://en.wikivoyage.org/wiki/Main_Page](4)" classname="WikipediaTest09" time="4.407">
+  <testcase name="verifyMediaWikiSiteStructureAndLinks[Wikivoyage, https://en.wikivoyage.org/wiki/Main_Page](4)" classname="WikipediaTest09" time="4.114">
     <system-out><![CDATA[
 === Verifying: Wikivoyage ===
 Page title: Wikivoyage – The free worldwide travel guide that you can edit
@@ -756,13 +462,8 @@ Internal links with text found: 69
 ✓ Wikivoyage verified successfully
 
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:28:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:28:27 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyMediaWikiSiteStructureAndLinks[Wiktionary, https://en.wiktionary.org/wiki/Wiktionary:Main_Page](5)" classname="WikipediaTest09" time="11.669">
+  <testcase name="verifyMediaWikiSiteStructureAndLinks[Wiktionary, https://en.wiktionary.org/wiki/Wiktionary:Main_Page](5)" classname="WikipediaTest09" time="12.313">
     <system-out><![CDATA[
 === Verifying: Wiktionary ===
 Page title: Wiktionary, the free dictionary
@@ -780,20 +481,9 @@ Internal links with text found: 354
 ✓ Wiktionary verified successfully
 
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:28:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:28:32 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyMediaWikiSiteStructureAndLinks[MediaWiki, https://www.mediawiki.org/wiki/MediaWiki](6)" classname="WikipediaTest09" time="3.373">
-    <system-out><![CDATA[[initDriver] Attempt 1 failed: Could not start a new session. Response code 500. Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause. 
-Host info: host: 'agropecuario', ip: '127.0.1.1'
-Build info: version: '4.16.0', revision: '15400459dd*'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-171-generic', java.version: '17.0.18'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--headless=new, --no-sandbox, --disable-dev-shm-usage, --disable-gpu, --window-size=1920,1080, --remote-allow-origins=*], binary: /home/agropecuario/.cache/s..., extensions: []}}]}]. Retrying in 2 s...
-
+  <testcase name="verifyMediaWikiSiteStructureAndLinks[MediaWiki, https://www.mediawiki.org/wiki/MediaWiki](6)" classname="WikipediaTest09" time="3.53">
+    <system-out><![CDATA[
 === Verifying: MediaWiki ===
 Page title: MediaWiki
 Generator: MediaWiki 1.46.0-wmf.19
@@ -810,13 +500,8 @@ Internal links with text found: 91
 ✓ MediaWiki verified successfully
 
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:28:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:28:52 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyMediaWikiSiteStructureAndLinks[Wikiversity, https://en.wikiversity.org/wiki/Wikiversity:Main_Page](7)" classname="WikipediaTest09" time="4.159">
+  <testcase name="verifyMediaWikiSiteStructureAndLinks[Wikiversity, https://en.wikiversity.org/wiki/Wikiversity:Main_Page](7)" classname="WikipediaTest09" time="4.007">
     <system-out><![CDATA[
 === Verifying: Wikiversity ===
 Page title: Wikiversity
@@ -834,13 +519,8 @@ Internal links with text found: 90
 ✓ Wikiversity verified successfully
 
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:28:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:28:56 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyMediaWikiSiteStructureAndLinks[Wikinews, https://en.wikinews.org/wiki/Main_Page](8)" classname="WikipediaTest09" time="5.7">
+  <testcase name="verifyMediaWikiSiteStructureAndLinks[Wikinews, https://en.wikinews.org/wiki/Main_Page](8)" classname="WikipediaTest09" time="5.857">
     <system-out><![CDATA[
 === Verifying: Wikinews ===
 Page title: Wikinews, the free news source
@@ -858,104 +538,54 @@ Internal links with text found: 161
 ✓ Wikinews verified successfully
 
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:29:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:29:00 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="completeDonationFlowValidation" classname="WikipediaTest10" time="1.441">
+  <testcase name="completeDonationFlowValidation" classname="WikipediaTest10" time="1.365">
     <system-out><![CDATA[Starting complete donation flow test...
 ✓ Step 1: Amount selected
 ✓ Step 2: Form remains visible
 ✓ Step 3: Next step/submit button available: "Donate by direct debit (SEPA)"
 Donation flow validation complete (stopped before payment)
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:29:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:29:06 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyCountrySelectionShowsSpain" classname="WikipediaTest10" time="0.497">
+  <testcase name="verifyCountrySelectionShowsSpain" classname="WikipediaTest10" time="0.551">
     <system-out><![CDATA[✓ Country parameter (ES) verified in URL
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:29:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:29:08 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyCurrencyIsSetToEUR" classname="WikipediaTest10" time="1.44">
+  <testcase name="verifyCurrencyIsSetToEUR" classname="WikipediaTest10" time="1.248">
+    <system-out><![CDATA[✓ Found 14 references to EUR/€
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDonationAmountOptions" classname="WikipediaTest10" time="1.192">
+    <system-out><![CDATA[✓ Found 8 amount selection options
+✓ Amount options are visible
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDonationFrequencyOptions" classname="WikipediaTest10" time="0.64">
     <system-out><![CDATA[[initDriver] Attempt 1 failed: Could not start a new session. Response code 500. Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause. 
 Host info: host: 'agropecuario', ip: '127.0.1.1'
 Build info: version: '4.16.0', revision: '15400459dd*'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-171-generic', java.version: '17.0.18'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--headless=new, --no-sandbox, --disable-dev-shm-usage, --disable-gpu, --window-size=1920,1080, --remote-allow-origins=*], binary: /home/agropecuario/.cache/s..., extensions: []}}]}]. Retrying in 2 s...
-✓ Found 14 references to EUR/€
+✓ Found 3 frequency options
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:29:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:29:15 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyDonationAmountOptions" classname="WikipediaTest10" time="1.257">
-    <system-out><![CDATA[✓ Found 8 amount selection options
-✓ Amount options are visible
-]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:29:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:29:17 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
-  </testcase>
-  <testcase name="verifyDonationFrequencyOptions" classname="WikipediaTest10" time="0.581">
-    <system-out><![CDATA[✓ Found 3 frequency options
-]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:29:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:29:19 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
-  </testcase>
-  <testcase name="verifyDonationPageLoadsCorrectly" classname="WikipediaTest10" time="0.563">
+  <testcase name="verifyDonationPageLoadsCorrectly" classname="WikipediaTest10" time="0.885">
     <system-out><![CDATA[✓ Donation page title verified
 ✓ Donation form is visible
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:29:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:29:20 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyDonationSubmitButton" classname="WikipediaTest10" time="1.326">
+  <testcase name="verifyDonationSubmitButton" classname="WikipediaTest10" time="0.676">
     <system-out><![CDATA[✓ Submit button found: "Donate by direct debit (SEPA)"
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:29:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:29:21 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyPaymentMethodOptions" classname="WikipediaTest10" time="0.56">
+  <testcase name="verifyPaymentMethodOptions" classname="WikipediaTest10" time="0.633">
     <system-out><![CDATA[✓ Payment options found in page content
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:29:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:29:23 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyWikimediaBrandingAndTrustIndicators" classname="WikipediaTest10" time="1.137">
+  <testcase name="verifyWikimediaBrandingAndTrustIndicators" classname="WikipediaTest10" time="1.173">
     <system-out><![CDATA[✓ Wikimedia branding/logo visible
 ✓ Found 2 trust/security indicators
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2026 3:29:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 146
-Mar 14, 2026 3:29:23 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 146.0.7680.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
 </testsuite>

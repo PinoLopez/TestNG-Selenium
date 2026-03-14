@@ -10,7 +10,7 @@
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
     <dependencies>
-        <!-- Selenium 4.6+ includes Selenium Manager: auto-downloads ChromeDriver, no manual setup needed -->
+        <!-- Selenium 4.6+ includes Selenium Manager: auto-downloads ChromeDriver -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
@@ -33,6 +33,12 @@
                     <suiteXmlFiles>
                         <suiteXmlFile>testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
+                    <!-- Point Java's built-in logging (JUL) to our logging.properties.
+                         This suppresses the noisy "Unable to find CDP implementation
+                         matching 146" warnings from Selenium's CdpVersionFinder. -->
+                    <argLine>
+                        -Djava.util.logging.config.file=${project.build.testOutputDirectory}/logging.properties
+                    </argLine>
                 </configuration>
             </plugin>
         </plugins>
