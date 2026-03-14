@@ -137,13 +137,15 @@ public class BaseTest {
     // Chrome flags: headless=new required for Chrome 112+ / Chrome 146
     // ────────────────────────────────────────────────────────────────────────
     private ChromeOptions buildOptions() {
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless=new");
-        options.addArguments("--no-sandbox");
-        options.addArguments("--disable-dev-shm-usage");
-        options.addArguments("--disable-gpu");
-        options.addArguments("--window-size=1920,1080");
-        options.addArguments("--remote-allow-origins=*");
+         ChromeOptions options = new ChromeOptions();
+           options.addArguments("--headless=new");
+            options.addArguments("--no-sandbox");
+            options.addArguments("--disable-dev-shm-usage");
+          options.addArguments("--disable-gpu");
+    options.addArguments("--window-size=1920,1080");
+    options.addArguments("--disable-notifications");
+    options.addArguments("--disable-infobars");
+    options.addArguments("--remote-allow-origins=*");
         return options;
     }
 }
